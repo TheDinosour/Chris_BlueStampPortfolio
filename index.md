@@ -55,9 +55,9 @@ For your first milestone, describe what your project is and how you plan to buil
 -->
 # Starter Project - Retro arcade game
 
-##Summary: 
+## Summary: 
 
-###Explanation:
+### Explanation:
 
 My starter project is a mini arcade game.
 
@@ -79,10 +79,10 @@ And I can also use the yellow button to pause the game.
 
 I can also use the yellow button to quit the game.
 
-###Components used:
+### Components used:
 LED Matrix x2, 7 Segment Display, Buzzer, Button x7, Capacitor, Battery holder, AAA Battery x3, Transparent Acrylic Shell x 4, Integrated Circuit/Microprocessor, and PCB. 
 
-###How the components work together:
+### How the components work together:
 
 The microprocessor takes in all the inputs from the 7 buttons/switches, the switches work by completing an electric circuit when pressed, this is from the small metal springs coming in contact with two wires, allowing electricity to flow. 
 
@@ -90,14 +90,14 @@ The microprocessor takes in all the inputs from the 7 buttons/switches, the swit
 
  The capacitor holds the power that the three triple A batteries provide. 
 
-###Challenges faced:
+### Challenges faced:
 The instructions were somewhat unclear since there weren't any pictures for every part.
 
 For example, the instructions told me to screw in the battery before removing the paper that protects the transparent acrylic shells, which made me have to unscrew most of it and take off the paper.
 
 Another inconvenience with the project was the instructions didn’t say how to solder on the power wires, so I ended up doing it wrong, but it still worked. 
 
-###Next Steps:
+### Next Steps:
 For my first milestone, I plan on making Smart glasses that display whatever I want through a transparent OLED screen. 
 
 
