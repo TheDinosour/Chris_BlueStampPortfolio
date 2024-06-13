@@ -14,6 +14,7 @@ You should comment out all portions of your portfolio that you have not complete
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](Chris.HEIC)
+
 <!-- 
 # Final Milestone
 
@@ -87,7 +88,11 @@ LED Matrix x2, 7 Segment Display, Buzzer, Button x7, Capacitor, Battery holder, 
 ### How the components work together:
 
 The microprocessor takes in all the inputs from the 7 buttons/switches, the switches work by completing an electric circuit when pressed, this is from the small metal springs coming in contact with two wires, allowing electricity to flow. 
+
+DOWN:
 ![down](down.png)
+
+UP:
 ![up](up.png)
 
  Depending on the game, the microprocessor plays different music through the buzzer and makes the LED matrices project the game and makes the 7 segment display to display the score.
