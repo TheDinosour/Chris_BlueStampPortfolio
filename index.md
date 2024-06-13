@@ -1,4 +1,4 @@
-# **Bluestamp smart glasses**
+# **Bluestamp smart glasses**:sunglasses:
 <!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 -->
 ## Project Description
@@ -67,7 +67,7 @@ LED Matrix x2, 7 Segment Display, Buzzer, Button x7, Capacitor, Battery holder, 
 
 ### How the components work together:
 
-The microprocessor takes in all the inputs from the 7 buttons/switches, the switches work by completing an electric circuit when pressed, this is from the small metal springs coming in contact with two wires, allowing electricity to flow. 
+The microprocessor takes in all the inputs from the 7 buttons/switches, the switches work by completing an electric circuit when pressed, this is from the small metal springs coming in contact with two wires, allowing electricity to flow. Look at the images bellow. 
 
 UP:
 
