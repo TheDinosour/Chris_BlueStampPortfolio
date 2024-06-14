@@ -77,8 +77,6 @@ Depending on the game, the microprocessor plays different music through the buzz
 ### Challenges faced:
 The instructions were quite unclear since there weren't any pictures for every part. For example, the instructions told me to screw in the battery before removing the paper that protects the transparent acrylic shells, which made me have to unscrew most of it and take off the paper. Another inconvenience with the project was the instructions didn’t say how to solder on the power wires, so I ended up doing it wrong, but it still worked. 
 
-### Next Steps:
-For my first milestone, I plan on making Smart glasses that display whatever I want through a transparent OLED screen. 
 
 <!--
 # Schematics 
