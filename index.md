@@ -65,6 +65,7 @@ LED Matrix x2, 7 Segment Display, Buzzer, Button x7, Capacitor, Battery holder, 
 ### How the components work together:
 
 The microprocessor takes in all the inputs from the 7 buttons/switches, the switches work by completing an electric circuit when pressed, this is from the small metal springs coming in contact with the two wires on the bottom, allowing electricity to flow, seen in the figure on the right. When the button is at rest, the moveable contact is in contact with the top two wires, seen in the figure on the left. 
+
 ![up](up.png)  ![down](down.png)
 
 
