@@ -2,11 +2,11 @@
 <!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 -->
 ## Project Description
-My project is the smart glasses, the smart glasses has a screen in one of the lens that displays the time, date, temperature, notifications, and anything else I want to display. The smart glasses also can take pictures or videos with an hidden camera, then use bluetooth to connect to my phone and save the pictures/videos. This secretive gadget will also be able to play music and take sound inputs. 
+My project is smart glasses. Smart glasses have a screen in one of the lenses that displays the time, date, temperature, notifications, and anything else I want to display. The smart glasses also can take pictures or videos with a hidden camera, then use bluetooth to connect to my phone and save the pictures/videos. This secretive gadget will also be able to play music and take sound inputs. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Christopher Y | Lynbrook High | Engineering | Incoming Softmore
+| Christopher Y | Lynbrook High | Engineering | Incoming Sophomore
 
 <!--
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
@@ -56,8 +56,7 @@ For your first milestone, describe what your project is and how you plan to buil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MUYhoP_0x7Y?si=yAEnYf4XeXH2CUkN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**### Explanation**
-
+### Explanation
 My starter project is a mini arcade game. I can play tetris, snake game, car racing, space invaders, and you can gamble on a slot machine by using 7 buttons - up, down, left, right, start, pause/leave, and start/power off. I can play tetris by moving the randomly generated block left/right and speed up the drop with the down arrow. I can also rotate the block with the green button and I can pause the game with the yellow button. For the snake game, I can move the snake in all four directions to eat the brightly glowing dot, I can also pause the game with the yellow button and speed the snake up with my green button. For my car racing game, I can move left or right to dodge the incoming cars. I can also use the green button to speed up and the yellow button to pause. For my space invaders game, I can move left and right to shoot at the monsters directly above me and shoot with my green button. And I can also use the yellow button to pause the game. Finally, for my slot machine game, I can wager up to 9 credits which allows me to have a random chance of winning by getting a "777". I can also use the yellow button to quit the game.
 
 ### Components used
@@ -65,15 +64,9 @@ LED Matrix x2, 7 Segment Display, Buzzer, Button x7, Capacitor, Battery holder, 
 
 ### How the components work together:
 
-The microprocessor takes in all the inputs from the 7 buttons/switches, the switches work by completing an electric circuit when pressed, this is from the small metal springs coming in contact with two wires, allowing electricity to flow. Look at the images bellow. 
+The microprocessor takes in all the inputs from the 7 buttons/switches, the switches work by completing an electric circuit when pressed, this is from the small metal springs coming in contact with the two wires on the bottom, allowing electricity to flow, seen in the figure on the right. When the button is at rest, the moveable contact is in contact with the top two wires, seen in the figure on the left. 
+![up](up.png)  ![down](down.png)
 
-UP:
-
-![up](up.png)
-
-DOWN:
-
-![down](down.png)
 
 
 
@@ -87,7 +80,7 @@ For my first milestone, I plan on making Smart glasses that display whatever I w
 
 <!--
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resources to create professional schematic diagrams, though BSE recommends Tinkercad because it can be done easily and for free in the browser. 
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
@@ -126,3 +119,5 @@ One of the best parts about Github is that you can view how other people set up 
 
 To watch the BSE tutorial on how to create a portfolio, click here.
 -->
+
+
