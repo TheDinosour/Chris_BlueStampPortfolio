@@ -68,7 +68,7 @@ The microprocessor is a tiny component that processes the inputs from the 7 butt
 
 
 ![both](bothupanddown.png)
-<p>How It Works: Push-Button, 2022, https://youtu.be/iCHAIeoSpI4?si=Y5pVrjMlbrwYN1v4</p>
+<sup>How It Works: Push-Button, 2022, https://youtu.be/iCHAIeoSpI4?si=Y5pVrjMlbrwYN1v4</sup>
 
 
 
