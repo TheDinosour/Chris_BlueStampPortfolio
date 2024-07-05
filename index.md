@@ -41,9 +41,9 @@ For your second milestone, explain what you've worked on since your previous mil
 - What needs to be completed before your final milestone 
 --->
 # First Milestone - Camera
-
+<!--
 #<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" #frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; #web-share" allowfullscreen></iframe>
-
+-->
 ### Summary
 For my first milestone, I took pictures with a camera on my RaspberryPI, a tiny computer. 
 This feature will be critical to my final product, smart glasses. Test picture below. 
