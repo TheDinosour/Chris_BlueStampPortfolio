@@ -29,7 +29,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone - Transparent OLED
 
-#<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" #frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; #web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_10FKafzVV8?si=LjEFAiIfmrRXgP56" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Progress:
 Slightly behind schedule, but I'm around 60% done with my project. 
@@ -51,7 +51,7 @@ My transparent OLED stands for Organic Light Emitting Diode, it is made of rough
 
 
 **Figure 2. My OLED is wired to a mini drive board which first boosts the suply voltage from the Raspberry PI from VCC to 12V5 volts based on the schematic(See schematic link 1 below), the driver is also responsible for regulating the logic levels of the I2C/SPI transparent OLED. A level conversion circuit makes sure an acceptable threshhold voltage is provided for a logic high or low during data transmission, Then limits the amount of current going from my RaspberryPI to my OLED, this is because LED's are so small that they don't have a resistor, so they easily get overheated and break when too much current is flowing through it.(Works Cited Below)**
-
+<!--https://www.waveshare.com/w/upload/0/03/1.51inch_OLED_Transparent_Driver_Board_Schematic.pdf-->
 
 
 # Challenges: 
