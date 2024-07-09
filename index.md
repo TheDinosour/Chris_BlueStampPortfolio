@@ -79,9 +79,6 @@ My RaspberryPI zero acts like a microscopic computer by processing code and runn
 `import os
 os.system("libcamera-still -o picture.jpg")`
 
-This command takes a test picture, shown below. 
-
-![me](meeeeee.png)
 
 ### Challenges Faced(not all said in video):
 I faced many challenges such as when I was trying to flash my SD card, I looked at one of the tutorials in the project resources document, however it was outdated, so I flashed my SD card multiple times when I was trying to figure out how I could configure my SD-card. Configuring an SD-card allows me to use ssh to connect to a Raspberry PI, however when I tried using an app called PuTTy to connect my RaspberryPI to my computer using SSH,  it didn't work since I have a Windows computer. 
