@@ -32,13 +32,15 @@ For your final milestone, explain the outcome of your project. Key details to in
 #<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" #frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; #web-share" allowfullscreen></iframe>
 
 # Progress:
-Slightly behind scheduel, but I'm around %60 done with my project. 
+Slightly behind scheduel, but I'm around 60% done with my project. 
 
 # Component Added: 
 Transparent OLED
 
 # How The Component works
 My transparent OLED stands for Organic Light Emitting Diode, it is made of roughly 2500 pixels(I did the math). Each of these pixels are made out of one Light Emitting Diode and turns blue when I turn them on. This allows me to display different shapes and text that I can code it to. My OLED is transparent because all the LEDs are spaced apart just enough so that light can pass through it. My OLED is wired onto my Raspberry PI. 
+
+
 
 # Challenges: 
 I faced three challenges, the first one is I started off trying to use the luma library test code off github, but I got an error that said luma was not found. I fixed this error by changing using waveshare since that's my OLED’s brand and I connected my wires according to the website. My second  challenge is I accidentally used the C library instead of the Python library where I was doing all my code through waveshare, which made me have to redownload all the files for my OLED. My third challenge was when I got my OLED to display, I had to rotate the screen in order to hide the wires that come out of my OLED. I did this by changing a line in my code called image1 = image1.rotate(270, expand = True) which rotated my display and resize the screen. 
