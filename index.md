@@ -38,20 +38,27 @@ Slightly behind schedule, but I'm around 60% done with my project.
 Transparent OLED
 
 # How The Component works
-My transparent OLED stands for Organic Light Emitting Diode, it is made of roughly 2500 pixels(I did the math). Each of these pixels are made out of one Light Emitting Diode and turns blue when I turn them on. This allows me to display different shapes and text that I can code it to. My OLED is transparent because all the LEDs are spaced apart just enough so that light can pass through it as shown in the figure bellow. 
+My transparent OLED stands for Organic Light Emitting Diode, it is made of roughly 2500 pixels(I did the math). Each of these pixels are made out of one Light Emitting Diode and turns blue when I turn them on. This allows me to display different shapes and text that I can code it to. My OLED is transparent because all the LEDs are spaced apart just enough so that light can pass through it as shown in the figure below. 
 
 
 ![OLED](OLED.png)
 
-My OLED is wired onto my Raspberry PI, so that my RaspberryPI can tell my OLED which LEDs to light up, allowing me to see different text and images. 
 
-**Here, the blue squares represent the LEDs. As you can see they are evenly spaced apart, allowing light to pass, making it transparent.**
+**Figure 1. Here, the blue squares represent the LEDs. As you can see they are evenly spaced apart, allowing light to pass, making it transparent.(Works Cited Below)**
+
+
+![OLED2](oled2.png)
+
+
+**Figure 2. My OLED is wired to a mini drive board which mainly limits the amount of current going from my RaspberryPI to my OLED, this is because LED's are so small that they don't have a resistor, so they easily get overheated and break when too much current is flowing through it.(Works Cited Below)**
+
+
 
 # Challenges: 
-I faced three challenges, the first one is I started off trying to use the luma library test code off github, but I got an error that said luma was not found. I fixed this error by changing using waveshare since that's my OLED’s brand and I connected my wires according to the website. My second  challenge is I accidentally used the C library instead of the Python library where I was doing all my code through waveshare, which made me have to redownload all the files for my OLED. My third challenge was when I got my OLED to display, I had to rotate the screen in order to hide the wires that come out of my OLED. I did this by changing a line in my code called image1 = image1.rotate(270, expand = True) which rotated my display and resize the screen. 
+I faced three challenges, the first one is I started off trying to use the luma library test code off github, but I got an error that said luma was not found. I fixed this error by changing using waveshare since that's my OLED’s brand and I connected my wires according to the website. My second  challenge is I accidentally used the C library instead of the Python library where I was doing all my code through waveshare, which made me have to redownload all the files for my OLED. My third challenge was when I got my OLED to display, I had to rotate the screen in order to hide the wires that come out of my OLED. I did this by changing a line in my code called image1 = image1.rotate(270, expand = True) which rotated my display and resized the screen. 
 
-# Suprises/Unsolved Problems: 
-I couldn't read my screen when I put it next to my eyes, I can solve this problem by using a hidden OLED to display onto a prism that reflects into my eyes. This will add distance between me and my screen, making it easier to see my screen. 
+# Surprises/Unsolved Problems: 
+I couldn't read my screen when I put it next to my eyes. I can solve this problem by using a hidden OLED to display onto a prism that reflects into my eyes. This will add distance between me and my screen, making it easier to see my screen. 
 
 # Whats Next: 
 For my third milestone, I’m going to add a bluetooth module to my Raspberry PI that can connect to my phone, then I can display whatever I want and take pictures wirelessly. 
@@ -67,8 +74,14 @@ For my first milestone, I took pictures with a camera using my Camera, on my Ras
 I used a RaspberryPI Zero, monitor, mouse, keyboard, micro USB adapter, Arducam OV5647, and micro SD-card. 
 
 ### How The Components Work Together:
-My RaspberryPI zero acts like a microscopic computer by processing code and running it. I edit it using my keyboard and mouse, and I can display it using my monitor. I flashed bookworm OS which is a newer version of the OS onto my micro SD-card and I put it in my Raspberry PI. I did this by using an SD-card adapter to connect to my computer and I flashed my SD-card using the RaspberryPI imager. I also downloaded the libcamera library in my RaspberryPI for my Arducam. Libraries let me use different functions, for example I can take a picture with my camera using a simple line with the libcamera library. 
+My RaspberryPI zero acts like a microscopic computer by processing code and running it. I edit it using my keyboard and mouse, and I can display it using my monitor. I flashed a bookworm OS which is a newer version of the OS onto my micro SD-card and I put it in my Raspberry PI. I did this by using an SD-card adapter to connect to my computer and I flashed my SD-card using the RaspberryPI imager. I also downloaded the libcamera library in my RaspberryPI for my Arducam. Libraries let me use different functions, for example I can take a picture with my camera using a simple line with the OS library that runs the libcamera library. The OS library is really complicated and has a lot of different functions not just for cameras. The command I ran is shown below. 
 
+`import os
+os.system("libcamera-still -o picture.jpg")`
+
+This command takes a test picture, shown below. 
+
+![me](meeeeee.png)
 
 ### Challenges Faced(not all said in video):
 I faced many challenges such as when I was trying to flash my SD card, I looked at one of the tutorials in the project resources document, however it was outdated, so I flashed my SD card multiple times when I was trying to figure out how I could configure my SD-card. Configuring an SD-card allows me to use ssh to connect to a Raspberry PI, however when I tried using an app called PuTTy to connect my RaspberryPI to my computer using SSH,  it didn't work since I have a Windows computer. 
@@ -111,7 +124,7 @@ The microprocessor is a tiny component that processes the inputs from the 7 butt
 
 ![both](bothupanddown.png)
 
-**The switches work by completing an electric circuit when pressed, this is from the small metal springs coming in contact with the two wires on the bottom, allowing electricity to flow, seen in the figure on the right. When the button is at rest, the moveable contact is in contact with the top two wires, seen in the figure on the left. (Works Cited Bellow)**
+**Figure 3. The switches work by completing an electric circuit when pressed, this is from the small metal springs coming in contact with the two wires on the bottom, allowing electricity to flow, seen in the figure on the right. When the button is at rest, the moveable contact is in contact with the top two wires, seen in the figure on the left. (Works Cited Below)**
 
 
 
@@ -123,8 +136,9 @@ The instructions were quite unclear since there weren't any pictures for every p
 
 
 Works Cited:
-- Figure 1: <sup>How An OLED Transparent Display Works - Fermion: 1.51” OLED Transparent Display - DFR0934, 2022, https://www.youtube.com/watch?v=d5JgE1I_2ag</sup>
-- Figure 2: <sup>How It Works: Push-Button, 2022, https://youtu.be/iCHAIeoSpI4?si=Y5pVrjMlbrwYN1v4</sup>
+- Figure 1: <sup>1.51inch Transparent OLED, 128×64 Resolution, SPI/I2C Interfaces, light blue color display, https://www.waveshare.com/1.51inch-transparent-oled.htm
+- Figure 2: <sup>How An OLED Transparent Display Works - Fermion: 1.51” OLED Transparent Display - DFR 0934, 2022, https://www.youtube.com/watch?v=d5JgE1I_2ag</sup>
+- Figure 3: <sup>How It Works: Push-Button, 2022, https://youtu.be/iCHAIeoSpI4?si=Y5pVrjMlbrwYN1v4</sup>
 
 <!--
 # Schematics 
@@ -172,6 +186,7 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
+
 
 
 
