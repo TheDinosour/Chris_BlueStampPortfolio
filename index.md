@@ -76,8 +76,9 @@ I used a RaspberryPI Zero, monitor, mouse, keyboard, micro USB adapter, Arducam 
 ### How The Components Work Together:
 My RaspberryPI zero acts like a microscopic computer by processing code and running it. I edit it using my keyboard and mouse, and I can display it using my monitor. I flashed a bookworm OS which is a newer version of the OS onto my micro SD-card and I put it in my Raspberry PI. I did this by using an SD-card adapter to connect to my computer and I flashed my SD-card using the RaspberryPI imager. I also downloaded the libcamera library in my RaspberryPI for my Arducam. Libraries let me use different functions, for example I can take a picture with my camera using a simple line with the OS library that runs the libcamera library. The OS library is really complicated and has a lot of different functions not just for cameras. The command I ran is shown below. 
 
-`import os
-os.system("libcamera-still -o picture.jpg")`
+`import os`
+`os.system("libcamera-still -o picture.jpg")`
+
 
 
 ### Challenges Faced(not all said in video):
