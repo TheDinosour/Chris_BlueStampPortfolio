@@ -25,22 +25,30 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-
+-->
 
 # Second Milestone - Transparent OLED
 
 #<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" #frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; #web-share" allowfullscreen></iframe>
 
 # Progress:
+Slightly behind scheduel, but I'm around %60 done with my project. 
 
-# Suprises/Unsolved Problems: 
+# Component Added: 
+Transparent OLED
+
+# How The Component works
+My transparent OLED stands for Organic Light Emitting Diode, it is made of roughly 2500 pixels(I did the math). Each of these pixels are made out of one Light Emitting Diode and turns blue when I turn them on. This allows me to display different shapes and text that I can code it to. My OLED is transparent because all the LEDs are spaced apart just enough so that light can pass through it. My OLED is wired onto my Raspberry PI. 
 
 # Challenges: 
+I faced three challenges, the first one is I started off trying to use the luma library test code off github, but I got an error that said luma was not found. I fixed this error by changing using waveshare since that's my OLED’s brand and I connected my wires according to the website. My second  challenge is I accidentally used the C library instead of the Python library where I was doing all my code through waveshare, which made me have to redownload all the files for my OLED. My third challenge was when I got my OLED to display, I had to rotate the screen in order to hide the wires that come out of my OLED. I did this by changing a line in my code called image1 = image1.rotate(270, expand = True) which rotated my display and resize the screen. 
+
+# Suprises/Unsolved Problems: 
+I couldn't read my screen when I put it next to my eyes, I can solve this problem by using a hidden OLED to display onto a prism that reflects into my eyes. This will add distance between me and my screen, making it easier to see my screen. 
 
 # Whats Next: 
+For my third milestone, I’m going to add a bluetooth module to my Raspberry PI that can connect to my phone, then I can display whatever I want and take pictures wirelessly. 
 
-
---->
 # First Milestone - Camera
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gOLcSd5t2MM?si=gzrqmbKyC9g-1qKb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -94,6 +102,7 @@ The microprocessor is a tiny component that processes the inputs from the 7 butt
 
 
 ![both](bothupanddown.png)
+
 **The switches work by completing an electric circuit when pressed, this is from the small metal springs coming in contact with the two wires on the bottom, allowing electricity to flow, seen in the figure on the right. When the button is at rest, the moveable contact is in contact with the top two wires, seen in the figure on the left. (Works Cited Bellow)**
 
 
