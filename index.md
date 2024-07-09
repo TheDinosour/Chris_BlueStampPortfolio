@@ -134,15 +134,15 @@ Don't forget to place the link of where to buy each component inside the quotati
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Transparent OLED | Displaying Notifications, Time, ect | $19.99 | <a href="https://www.waveshare.com/1.51inch-transparent-oled.htm"> Link </a> |
-| Raspberry PI Zero W | Processing code | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Arducam | Taking pictures and videos | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Bluetooth Module | Connecting my Raspberry PI to my phone | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Keyboard | Typing in my Raspberry PI | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Mouse | Navigating in my Raspberry PI | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Anker Portable Charger | Powering my setup | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| USB Adapter | Connecting my mouse, keyboard, and monitor to my Raspberry PI | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Micro-SD Card | Storing information and flashing bookworm for my Raspberry PI | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Monitor | Displaying my Raspberry PI | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Raspberry PI Zero W (with headers)| Processing code | $16.00 | <a href="https://www.adafruit.com/product/3708"> Link </a> |
+| Arducam | Taking pictures and videos | $13.99 | <a href="https://www.amazon.com/Camera-Arducam-Raspberry-Raspbian-MotionEye/dp/B01LY05LOE/ref=asc_df_B01LY05LOE/?hvadid=692875362841&hvpos=&hvnetw=g&hvrand=17700836446167088182&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435178578&psc=1&mcid=7c3d8b8b4acb3187a1cf954ff2bc5aee&hvocijid=17700836446167088182-B01LY05LOE-&hvexpln=73&gad_source=1"> Link </a> |
+| Bluetooth Module | Connecting my Raspberry PI to my phone | $7.75 | <a href="https://www.amazon.com/Bluetooth-Converter-Wireless-Transceiver-Communication/dp/B08Z3J9Y8T/ref=asc_df_B08Z3J9Y8T/?hvadid=692875362841&hvpos=&hvnetw=g&hvrand=7615094489009984384&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435178378&psc=1&mcid=09c63181a6f33002b15885036c83ccfd&hvocijid=7615094489009984384-B08Z3J9Y8T-&hvexpln=73&gad_source=1"> Link </a> |
+| Keyboard | Typing in my Raspberry PI | $21.03 | <a href="https://www.amazon.com/Logitech-920-002478-K120-USB-Keyboard/dp/B003ELVLKU/ref=asc_df_B003ELVLKU/?hvadid=692875362841&hvpos=&hvnetw=g&hvrand=13651588552481333806&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435178818&mcid=6a2eaafae77d3505875f8fa86e1b5189&hvocijid=13651588552481333806-B003ELVLKU-&hvexpln=73&gad_source=1"> Link </a> |
+| Mouse | Navigating in my Raspberry PI | $9.99 | <a href="https://www.amazon.com/Logitech-B100-Corded-Mouse-Computers/dp/B003L62T7W/ref=asc_df_B003L62T7W/?hvadid=692875362841&hvpos=&hvnetw=g&hvrand=5183220127620267826&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435177138&mcid=a35f2c2299093e289e4d6a6d7b986599&hvocijid=5183220127620267826-B003L62T7W-&hvexpln=73&gad_source=1"> Link </a> |
+| Anker Portable Charger | Powering my setup | $21.99 | <a href="https://www.amazon.com/Anker-PowerCore-Ultra-Compact-High-Speed-Technology/dp/B01CU1EC6Y"> Link </a> |
+| USB Adapter | Connecting my mouse, keyboard, and monitor to my Raspberry PI | $14.99 | <a href="https://www.amazon.com/Three-Port-Ethernet-Micro-Connector-Great/dp/B083VXQKD1"> Link </a> |
+| Micro-SD Card & micro-SD adapter | Storing information and flashing bookworm for my Raspberry PI | $9.74 | <a href="https://www.amazon.com/SanDisk-Ultra-microSDXC-Memory-Adapter/dp/B073JWXGNT/ref=asc_df_B073JWXGNT/?hvadid=692875362841&hvpos=&hvnetw=g&hvrand=7509480319074562991&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435180018&psc=1&mcid=a54fb9a681983531b610fec4c2253fbf&hvocijid=7509480319074562991-B073JWXGNT-&hvexpln=73&gad_source=1"> Link </a> |
+| Monitor | Displaying my Raspberry PI | $69.99 | <a href="https://www.amazon.com/PHILIPS-Adaptive-Replacement-Warranty-221V8LB/dp/B0CVM2GJCN/ref=asc_df_B0CVM2GJCN/?hvadid=692875362841&hvpos=&hvnetw=g&hvrand=1122924785419778454&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435178538&mcid=a010f7bbf2a33826af39def372ca9532&hvocijid=1122924785419778454-B0CVM2GJCN-&hvexpln=73&gad_source=1"> Link </a> |
 
 <!--
 
