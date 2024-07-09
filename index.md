@@ -32,15 +32,20 @@ For your final milestone, explain the outcome of your project. Key details to in
 #<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" #frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; #web-share" allowfullscreen></iframe>
 
 # Progress:
-Slightly behind scheduel, but I'm around 60% done with my project. 
+Slightly behind schedule, but I'm around 60% done with my project. 
 
 # Component Added: 
 Transparent OLED
 
 # How The Component works
-My transparent OLED stands for Organic Light Emitting Diode, it is made of roughly 2500 pixels(I did the math). Each of these pixels are made out of one Light Emitting Diode and turns blue when I turn them on. This allows me to display different shapes and text that I can code it to. My OLED is transparent because all the LEDs are spaced apart just enough so that light can pass through it. My OLED is wired onto my Raspberry PI. 
+My transparent OLED stands for Organic Light Emitting Diode, it is made of roughly 2500 pixels(I did the math). Each of these pixels are made out of one Light Emitting Diode and turns blue when I turn them on. This allows me to display different shapes and text that I can code it to. My OLED is transparent because all the LEDs are spaced apart just enough so that light can pass through it as shown in the figure bellow. 
 
 
+![OLED](OLED.png)
+
+My OLED is wired onto my Raspberry PI, so that my RaspberryPI can tell my OLED which LEDs to light up, allowing me to see different text and images. 
+
+**Here, the blue squares represent the LEDs. As you can see they are evenly spaced apart, allowing light to pass, making it transparent.**
 
 # Challenges: 
 I faced three challenges, the first one is I started off trying to use the luma library test code off github, but I got an error that said luma was not found. I fixed this error by changing using waveshare since that's my OLED’s brand and I connected my wires according to the website. My second  challenge is I accidentally used the C library instead of the Python library where I was doing all my code through waveshare, which made me have to redownload all the files for my OLED. My third challenge was when I got my OLED to display, I had to rotate the screen in order to hide the wires that come out of my OLED. I did this by changing a line in my code called image1 = image1.rotate(270, expand = True) which rotated my display and resize the screen. 
@@ -63,6 +68,7 @@ I used a RaspberryPI Zero, monitor, mouse, keyboard, micro USB adapter, Arducam 
 
 ### How The Components Work Together:
 My RaspberryPI zero acts like a microscopic computer by processing code and running it. I edit it using my keyboard and mouse, and I can display it using my monitor. I flashed bookworm OS which is a newer version of the OS onto my micro SD-card and I put it in my Raspberry PI. I did this by using an SD-card adapter to connect to my computer and I flashed my SD-card using the RaspberryPI imager. I also downloaded the libcamera library in my RaspberryPI for my Arducam. Libraries let me use different functions, for example I can take a picture with my camera using a simple line with the libcamera library. 
+
 
 ### Challenges Faced(not all said in video):
 I faced many challenges such as when I was trying to flash my SD card, I looked at one of the tutorials in the project resources document, however it was outdated, so I flashed my SD card multiple times when I was trying to figure out how I could configure my SD-card. Configuring an SD-card allows me to use ssh to connect to a Raspberry PI, however when I tried using an app called PuTTy to connect my RaspberryPI to my computer using SSH,  it didn't work since I have a Windows computer. 
@@ -116,8 +122,9 @@ Depending on the game, the microprocessor plays different music through the buzz
 The instructions were quite unclear since there weren't any pictures for every part. For example, the instructions told me to screw in the battery before removing the paper that protects the transparent acrylic shells, which made me have to unscrew most of it and take off the paper. Another inconvenience with the project was the instructions didn’t say how to solder on the power wires, so I ended up doing it wrong, but it still worked. 
 
 
-Works Cited: 
-- Figure 1: <sup>How It Works: Push-Button, 2022, https://youtu.be/iCHAIeoSpI4?si=Y5pVrjMlbrwYN1v4</sup>
+Works Cited:
+- Figure 1: <sup>How An OLED Transparent Display Works - Fermion: 1.51” OLED Transparent Display - DFR0934, 2022, https://www.youtube.com/watch?v=d5JgE1I_2ag</sup>
+- Figure 2: <sup>How It Works: Push-Button, 2022, https://youtu.be/iCHAIeoSpI4?si=Y5pVrjMlbrwYN1v4</sup>
 
 <!--
 # Schematics 
