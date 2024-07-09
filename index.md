@@ -74,7 +74,7 @@ For my first milestone, I took pictures with a camera using my Camera, on my Ras
 I used a RaspberryPI Zero, monitor, mouse, keyboard, micro USB adapter, Arducam OV5647, and micro SD-card. 
 
 ### How The Components Work Together:
-My RaspberryPI zero acts like a microscopic computer by processing code and running it. I edit it using my keyboard and mouse, and I can display it using my monitor. I flashed a bookworm OS which is a newer version of the OS onto my micro SD-card and I put it in my Raspberry PI. I did this by using an SD-card adapter to connect to my computer and I flashed my SD-card using the RaspberryPI imager. The image below shows the inputs of an Raspberry PI zero. 
+My RaspberryPI zero acts like a microscopic computer by processing code and running it. I edit it using my keyboard and mouse, and I can display it using my monitor. I flashed a bookworm OS which is a newer version of the OS onto my micro SD-card and I put it in my Raspberry PI. I did this by using an SD-card adapter to connect to my computer and I flashed my SD-card using the RaspberryPI imager. The image below shows the inputs of a Raspberry PI zero. 
 
 ![raspPi](raspbpi.png)
 
@@ -192,6 +192,8 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
+
+
 
 
 
