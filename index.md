@@ -74,7 +74,14 @@ For my first milestone, I took pictures with a camera using my Camera, on my Ras
 I used a RaspberryPI Zero, monitor, mouse, keyboard, micro USB adapter, Arducam OV5647, and micro SD-card. 
 
 ### How The Components Work Together:
-My RaspberryPI zero acts like a microscopic computer by processing code and running it. I edit it using my keyboard and mouse, and I can display it using my monitor. I flashed a bookworm OS which is a newer version of the OS onto my micro SD-card and I put it in my Raspberry PI. I did this by using an SD-card adapter to connect to my computer and I flashed my SD-card using the RaspberryPI imager. I also downloaded the libcamera library in my RaspberryPI for my Arducam. Libraries let me use different functions, for example I can take a picture with my camera using a simple line with the OS library that runs the libcamera library. The OS library is really complicated and has a lot of different functions not just for cameras. The command I ran is shown below. 
+My RaspberryPI zero acts like a microscopic computer by processing code and running it. I edit it using my keyboard and mouse, and I can display it using my monitor. I flashed a bookworm OS which is a newer version of the OS onto my micro SD-card and I put it in my Raspberry PI. I did this by using an SD-card adapter to connect to my computer and I flashed my SD-card using the RaspberryPI imager. The image below shows the inputs of an Raspberry PI zero. 
+
+![raspPi](raspbpi.png)
+
+**Figure 3. This is an image of an Raspberry PI and all its inputs with captions.(Works Cited Below)**
+
+
+I also downloaded the libcamera library in my RaspberryPI for my Arducam. Libraries let me use different functions, for example I can take a picture with my camera using a simple line with the OS library that runs the libcamera library. The OS library is really complicated and has a lot of different functions not just for cameras. The command I ran is shown below. 
 
 `import os`
 `os.system("libcamera-still -o picture.jpg")`
@@ -136,7 +143,8 @@ The instructions were quite unclear since there weren't any pictures for every p
 Works Cited:
 - Figure 1: <sup>1.51inch Transparent OLED, 128×64 Resolution, SPI/I2C Interfaces, light blue color display, https://www.waveshare.com/1.51inch-transparent-oled.htm
 - Figure 2: <sup>How An OLED Transparent Display Works - Fermion: 1.51” OLED Transparent Display - DFR 0934, 2022, https://www.youtube.com/watch?v=d5JgE1I_2ag</sup>
-- Figure 3: <sup>How It Works: Push-Button, 2022, https://youtu.be/iCHAIeoSpI4?si=Y5pVrjMlbrwYN1v4</sup>
+- Figure 3: <sup>A beginner's guide to the Raspberry Pi Zero, 2024, https://www.wired.com/story/raspberry-pi-zero-starter-guide/</sup>
+- Figure 4: <sup>How It Works: Push-Button, 2022, https://youtu.be/iCHAIeoSpI4?si=Y5pVrjMlbrwYN1v4</sup>
 
 <!--
 # Schematics 
