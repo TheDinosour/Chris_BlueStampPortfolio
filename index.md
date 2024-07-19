@@ -19,14 +19,14 @@ I put together all the parts in my project as shown in the two figures below by 
 
 
 
-![two](11.png)
+![two](111.png)
 
-**Figure 1, picture of my project from the right side**
+**Figure 1, picture of my project from the side**
 
 
 ![one](22.png)
 
-**Figure 2, picture of my project from the left side**
+**Figure 2, picture of my project from the back**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BJ6p8OBOhrs?si=zfvmQkON6X7zWjP6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
