@@ -1,6 +1,6 @@
  # **Bluestamp Smart Glasses** 
 ## Project Description
-My project is smart glasses. Smart glasses have a screen in one of the lenses that displays the time, date, temperature, notifications, and anything else I want to display. The smart glasses also can take pictures or videos with a hidden camera, then use bluetooth to connect to my phone and save the pictures. 
+My project is smart glasses. Smart glasses have a screen in one of the lenses that displays the time, date, temperature, notifications, and other information I want to display. The smart glasses can also take pictures or videos with a hidden camera, then use Bluetooth to connect to my phone and save the pictures.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
