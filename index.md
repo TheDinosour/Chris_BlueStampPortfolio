@@ -53,9 +53,6 @@ I hope to learn more about Mechanical Engineering and software - mainly coding.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_10FKafzVV8?si=LjEFAiIfmrRXgP56" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Progress:
-Slightly behind schedule, but I'm around 60% done with my project. 
-
 ### Component Added: 
 Transparent OLED
 
