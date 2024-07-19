@@ -270,9 +270,15 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Monitor | Displaying my Raspberry PI | $69.99 | <a href="https://www.amazon.com/PHILIPS-Adaptive-Replacement-Warranty-221V8LB/dp/B0CVM2GJCN/ref=asc_df_B0CVM2GJCN/?hvadid=692875362841&hvpos=&hvnetw=g&hvrand=1122924785419778454&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435178538&mcid=a010f7bbf2a33826af39def372ca9532&hvocijid=1122924785419778454-B0CVM2GJCN-&hvexpln=73&gad_source=1"> Link </a> |
 
 Works Cited:
+
 <sup>- Figure 3: 1.51inch Transparent OLED, 128×64 Resolution, SPI/I2C Interfaces, light blue color display, https://www.waveshare.com/1.51inch-transparent-oled.htm
+
 <sup>- Figure 4: How An OLED Transparent Display Works - Fermion: 1.51” OLED Transparent Display - DFR 0934, 2022, https://www.youtube.com/watch?v=d5JgE1I_2ag</sup>
+
 <sup>- Figure 5: A beginner's guide to the Raspberry Pi Zero, 2024, https://www.wired.com/story/raspberry-pi-zero-starter-guide/</sup>
+
 <sup>- Figure 6: How It Works: Push-Button, 2022, https://youtu.be/iCHAIeoSpI4?si=Y5pVrjMlbrwYN1v4</sup>
+
 <sup>- Figure 7: How to Make Smart Glasses!, 2021, https://www.instructables.com/Smart-Glasses-V2/
+
 <sup>- Figure 10: Parametric Print in Place Hinge, 2019, https://www.instructables.com/Parametric-Print-in-Place-Hinge/
