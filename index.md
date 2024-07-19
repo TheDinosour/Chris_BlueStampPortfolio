@@ -33,10 +33,10 @@ The following video shows me taking a test picture as well as a close up of my m
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BJ6p8OBOhrs?si=zfvmQkON6X7zWjP6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### How the Components Work: 
-I added Mirror, 3D printed glasses, hinge x2, and other 3d printed parts. My parts work together when I look through my mirror which reflects my vision to my OLED and since mirrors rotate an image, I flipped the direction of my OLED. My Raspberry Pi connects to my phone using bluetooth with an app called blue dot, a big blue button that takes a picture when I click the big blue button. All of this works through bluetooth, communication using ultra-high frequency radio waves. 
+I added a Mirror, 3D printed glasses, hinge x2, and other 3d printed parts. My parts work together when I look through my mirror which reflects my vision to my OLED. Since mirrors rotate images, I flipped the direction of how my OLED displays things. My Raspberry Pi connects to my phone using bluetooth with an app called blue dot, a big blue button that takes a picture when I click the big blue button. All of this works through bluetooth, or communication using ultra-high frequency radio waves. 
 
 ### Challenges
-I realized the tutorial lied and he couldn't actually see the text on the screen since it was too close, so I solved this challenge by using a mirror to increase the distance between my eye and my OLED. When I was putting my parts together, I started off super gluing the back of my raspberry pi to the inside of my glasses which made the wires stick out into my head, I got some help from an instructor and I used a dremel to cut a hole in my glasses so I could super glue some pin headers and my raspberry pi would stay on by being connected to my pin headers, then I had to dremel a hole into the side so that I could put my camera wire through. 
+I realized the tutorial that I followed lied and he couldn't actually see the text on the screen(the tutorial had the screen right in front of your eyes) since it was too close, so I solved this challenge by using a mirror to increase the distance between my eye and my OLED. When I was putting my parts together, I started off super gluing the back of my raspberry pi to the inside of my glasses which made the wires stick out stabbing my head, so I got some help from an instructor and I used a dremel to cut a hole in my glasses so I could super glue some pin headers and my raspberry pi would stay on by being connected to my pin headers, then I had to dremel a hole into the side so that I could put my camera wire through. 
 
 ### Whats Next: 
 I plan on making a voice detection system and adding some more functions to my OLED mainly to balance both sides of my glasses because one side is a few pounds heavier than the other side. I learned a lot about Raspberry Pi's, cameras, OLEDs, got better at CADing, soldering, and most importantly I've gained a lot of patience in all my time at Bluestamp since my Raspberry Pi was so dang SLOW. My Raspberry Pi is really slow because it has 512 mega bytes of ram, meaning it has less memory and needs to read my SD-card really often. In the future, I hope to learn more about CADing and software such as coding.  
@@ -46,11 +46,8 @@ I plan on making a voice detection system and adding some more functions to my O
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_10FKafzVV8?si=LjEFAiIfmrRXgP56" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Component Added: 
-Transparent OLED
-
 ### How The Component works
-My transparent OLED stands for Organic Light Emitting Diode, it is made of roughly 2500 pixels(I did the math). Each of these pixels are made out of one Light Emitting Diode and turns blue when I turn them on. This allows me to display different shapes and text that I can code it to. My OLED is transparent because all the LEDs are spaced apart just enough so that light can pass through it as shown in the figure below. 
+For this milestone, I added a transparent OLED. My OLED stands for Organic Light Emitting Diode, it is made of roughly 2500 pixels(I did the math). Each of these pixels are made out of one Light Emitting Diode and turns blue when I turn them on. This allows me to display different shapes and text that I can code it to. My OLED is transparent because all the LEDs are spaced apart just enough so that light can pass through it as shown in the figure below. 
 
 
 ![OLED](OLED.png)
@@ -69,24 +66,18 @@ My transparent OLED stands for Organic Light Emitting Diode, it is made of rough
 ### Challenges: 
 I faced three challenges, the first one is I started off trying to use the luma library test code off github, but I got an error that said luma was not found. I fixed this error by using waveshare since that's my OLED’s brand and I connected my wires according to the website. My second challenge is I accidentally used the C library instead of the Python library where I was doing all my code through waveshare, which made me have to redownload all the files for my OLED. My third challenge was when I got my OLED to display, I had to rotate the screen in order to hide the wires that come out of my OLED. I did this by changing a line in my code called image1 = image1.rotate(270, expand = True) which rotated my display and resize the screen. 
 
-### Surprises/Unsolved Problems: 
-I couldn't read my screen when I put it next to my eyes. I can solve this problem by using a hidden OLED to display onto a prism that reflects into my eyes. This will add distance between me and my screen, making it easier to see my screen. 
-
 ### Whats Next: 
-For my third milestone, I’m going to add a bluetooth module to my Raspberry PI that can connect to my phone, then I can display whatever I want and take pictures wirelessly. 
+For my third milestone, I’m going to add a bluetooth module to my Raspberry PI that can connect to my phone, then I can display whatever I want and take pictures wirelessly. Also, I plan on adding a system that made my OLED further away from my eyes, since it is really hard to see the text on my OLED since its too blurry. 
 
 # First Milestone - Camera
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gOLcSd5t2MM?si=gzrqmbKyC9g-1qKb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Summary
-For my first milestone, I took pictures with a camera using my Camera, on my RaspberryPI. This feature will be critical to my final product, smart glasses. 
-
-### Components Used
-I used a RaspberryPI Zero, monitor, mouse, keyboard, micro USB adapter, Arducam OV5647, and micro SD-card. 
+For my first milestone, I made a code that takes a picture when I run it. This feature will be critical to my final product, smart glasses. 
 
 ### How The Components Work Together:
-My RaspberryPI zero acts like a microscopic computer by processing code and running it. I edit it using my keyboard and mouse, and I can display it using my monitor. I flashed a bookworm OS which is a newer version of the OS onto my micro SD-card and I put it in my Raspberry PI. I did this by using an SD-card adapter to connect to my computer and I flashed my SD-card using the RaspberryPI imager. The image below shows the inputs of a Raspberry PI zero. 
+I used a RaspberryPI Zero, monitor, mouse, keyboard, micro USB adapter, Arducam OV5647, and micro SD-card for my first milestone. My RaspberryPI zero acts like a microscopic computer by processing code and running it. I edit it using my keyboard and mouse, and I can display it using my monitor. I flashed a bookworm OS which is a newer version of the OS onto my micro SD-card and I put it in my Raspberry PI. I did this by using an SD-card adapter to connect to my computer and I flashed my SD-card using the RaspberryPI imager. The image below shows the inputs of a Raspberry PI zero. 
 
 ![raspPi](raspbpi.png)
 
