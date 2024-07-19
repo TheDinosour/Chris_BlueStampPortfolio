@@ -14,24 +14,25 @@ My project is smart glasses. Smart glasses have a screen in one of the lenses th
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fto_NLnq1OM?si=2Rw3Fly_OoWuwvHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Summary: 
-I put together all the parts in my project as shown in the two figure below by connecting my main glasses to my left and right temples using a 3d printed hinge, allowing me to freely move my glasses using super glue. Then I cut a hole in the right side of my temple so that I could super glue my pin headers and secure my Raspberry Pi onto my pin headers, after that I cut another hole into the side of my right temple, so that I could connect my camera to my Raspberry Pi. 
+I put together all the parts in my project as shown in the two figures below by connecting my main glasses to my left and right temples using a 3d printed hinge, allowing me to freely move my glasses using super glue. Then I cut a hole in the right side of my temple so that I could super glue my pin headers and secure my Raspberry Pi onto my pin headers, after that I cut another hole into the side of my right temple, so that I could connect my camera to my Raspberry Pi. 
 
 
 
-![two](two.jpg)
+![two](1.png)
+
 **Figure 1**
 
 
-![one](one.jpg)
-**Figure 2**
+![one](2.png)
 
+**Figure 2**
 
 
 # Components Added:
 Mirror, 3D printed glasses, hinge x2, and other 3d printed parts
 
 # How the Components Work: 
-I look through my mirror which reflects my vision to my OLED and since mirrors rotate the image, so I fliped the direction of my OLED. My Raspberry Pi connects to phone using bluetooth with an app called blue dot, a big blue button that takes a picture when I click the big blue button, all of this works through bluetooth, communication using ultra-high frequency radio waves. 
+I look through my mirror which reflects my vision to my OLED and since mirrors rotate the image, I flipped the direction of my OLED. My Raspberry Pi connects to my phone using bluetooth with an app called blue dot, a big blue button that takes a picture when I click the big blue button. All of this works through bluetooth, communication using ultra-high frequency radio waves. 
 
 # Challenges
 I realized the tutorial lied and he couldn't actually see the text on the screen since it was too close, so I solved this challenge by using a mirror to increase the distance between my eye and my OLED. When I was putting my parts together, I started off super gluing the back of my raspberry pi to the inside of my glasses which made the wires stick out into my head, I got some help from an instructor and I used a dremel to cut a hole in my glasses so I could super glue some pin headers and my raspberry pi would stay on by being connected to my pin headers, then I had to dremel a hole into the side so that I could put my camera wire through. 
@@ -40,7 +41,7 @@ I realized the tutorial lied and he couldn't actually see the text on the screen
 I plan on making a voice detection system and adding some more functions to my OLED. 
 
 # What I learned
-I learned a lot aout Raspberry Pi's, cameras, OLEDs, got better at CADing, soldering, and most importantly I learned a lot of patience in all my time at bluestamp since my Raspberry Pi was so darn SLOW. 
+I learned a lot about Raspberry Pi's, cameras, OLEDs, got better at CADing, soldering, and most importantly I learned a lot of patience in all my time at bluestamp since my Raspberry Pi was so darn SLOW. 
 
 # What I hope to learn after BSE
 I hope to learn more about Mechanical Engineering and software - mainly coding. 
@@ -69,12 +70,12 @@ My transparent OLED stands for Organic Light Emitting Diode, it is made of rough
 ![OLED2](oled2.png)
 
 
-**Figure 4. My OLED is wired to a mini drive board which first boosts the suply voltage from the Raspberry PI from VCC to 12V5 volts based on the schematic(See schematic link 1 below), the driver is also responsible for regulating the logic levels of the I2C/SPI transparent OLED. A level conversion circuit makes sure an acceptable threshhold voltage is provided for a logic high or low during data transmission, Then limits the amount of current going from my RaspberryPI to my OLED, this is because LED's are so small that they don't have a resistor, so they easily get overheated and break when too much current is flowing through it.(Works Cited Below)**
+**Figure 4. My OLED is wired to a mini drive board which first boosts the supply voltage from the Raspberry PI from VCC to 12V5 volts based on the schematic(See schematic link 1 below), the driver is also responsible for regulating the logic levels of the I2C/SPI transparent OLED. A level conversion circuit makes sure an acceptable threshold voltage is provided for a logic high or low during data transmission, Then limits the amount of current going from my RaspberryPI to my OLED, this is because LED's are so small that they don't have a resistor, so they easily get overheated and break when too much current is flowing through it.(Works Cited Below)**
 <!--https://www.waveshare.com/w/upload/0/03/1.51inch_OLED_Transparent_Driver_Board_Schematic.pdf-->
 
 
 # Challenges: 
-I faced three challenges, the first one is I started off trying to use the luma library test code off github, but I got an error that said luma was not found. I fixed this error by using waveshare since that's my OLED’s brand and I connected my wires according to the website. My second challenge is I accidentally used the C library instead of the Python library where I was doing all my code through waveshare, which made me have to redownload all the files for my OLED. My third challenge was when I got my OLED to display, I had to rotate the screen in order to hide the wires that come out of my OLED. I did this by changing a line in my code called image1 = image1.rotate(270, expand = True) which rotated my display and resized the screen. 
+I faced three challenges, the first one is I started off trying to use the luma library test code off github, but I got an error that said luma was not found. I fixed this error by using waveshare since that's my OLED’s brand and I connected my wires according to the website. My second challenge is I accidentally used the C library instead of the Python library where I was doing all my code through waveshare, which made me have to redownload all the files for my OLED. My third challenge was when I got my OLED to display, I had to rotate the screen in order to hide the wires that come out of my OLED. I did this by changing a line in my code called image1 = image1.rotate(270, expand = True) which rotated my display and resize the screen. 
 
 # Surprises/Unsolved Problems: 
 I couldn't read my screen when I put it next to my eyes. I can solve this problem by using a hidden OLED to display onto a prism that reflects into my eyes. This will add distance between me and my screen, making it easier to see my screen. 
@@ -168,11 +169,13 @@ The instructions were quite unclear since there weren't any pictures for every p
 
 ![OLEDHolder](OLEDHolder.png)
 
-**Figure 8, This is a picure of my OLED holder that I designed**
+**Figure 8, This is a picture of my OLED holder that I designed**
 
 ![mirrorHolder](mirrorHolder.png)
 
 **Figure 9, This is a picture of my mirror holder that I designed**
+
+
 
 # Code
 
@@ -186,7 +189,7 @@ import time
 bd = BlueDot()
 import sys
 import os
-picdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'pic')
+pic dir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'pic')
 libdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'lib')
 if os.path.exists(libdir):
     sys.path.append(libdir)
