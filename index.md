@@ -275,3 +275,4 @@ Works Cited:
 - <sup>Figure 5: A beginner's guide to the Raspberry Pi Zero, 2024, https://www.wired.com/story/raspberry-pi-zero-starter-guide/</sup>
 - <sup>Figure 6: How It Works: Push-Button, 2022, https://youtu.be/iCHAIeoSpI4?si=Y5pVrjMlbrwYN1v4</sup>
 - <sup>Figure 7: How to Make Smart Glasses!, 2021, https://www.instructables.com/Smart-Glasses-V2/
+- <sup>Figure 10: Parametric Print in Place Hinge, 2019, https://www.instructables.com/Parametric-Print-in-Place-Hinge/
