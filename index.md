@@ -7,7 +7,7 @@ My project is the Smart Glasses. The Smart Glasses have a screen in one of the l
 |:--:|:--:|:--:|:--:|
 | Christopher Y | Lynbrook High | Engineering | Rising Sophomore
 
-![Headstone Image](CHRIStopher.png)
+![Headstone Image](meeeeeeeeeeeeeeeee.jpg)
 
 
 # Final Milestone
