@@ -16,15 +16,13 @@ My project is smart glasses. Smart glasses have a screen in one of the lenses th
 <!-- 
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+What you've accomplished since your previous milestone
+Biggest challenges
+What I learned
+What I hope to learn after BSE
 -->
 
 # Second Milestone - Transparent OLED
@@ -181,17 +179,6 @@ Don't forget to place the link of where to buy each component inside the quotati
 | USB Adapter | Connecting my mouse, keyboard, and monitor to my Raspberry PI | $14.99 | <a href="https://www.amazon.com/Three-Port-Ethernet-Micro-Connector-Great/dp/B083VXQKD1"> Link </a> |
 | Micro-SD Card & micro-SD adapter | Storing information and flashing bookworm for my Raspberry PI | $9.74 | <a href="https://www.amazon.com/SanDisk-Ultra-microSDXC-Memory-Adapter/dp/B073JWXGNT/ref=asc_df_B073JWXGNT/?hvadid=692875362841&hvpos=&hvnetw=g&hvrand=7509480319074562991&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435180018&psc=1&mcid=a54fb9a681983531b610fec4c2253fbf&hvocijid=7509480319074562991-B073JWXGNT-&hvexpln=73&gad_source=1"> Link </a> |
 | Monitor | Displaying my Raspberry PI | $69.99 | <a href="https://www.amazon.com/PHILIPS-Adaptive-Replacement-Warranty-221V8LB/dp/B0CVM2GJCN/ref=asc_df_B0CVM2GJCN/?hvadid=692875362841&hvpos=&hvnetw=g&hvrand=1122924785419778454&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435178538&mcid=a010f7bbf2a33826af39def372ca9532&hvocijid=1122924785419778454-B0CVM2GJCN-&hvexpln=73&gad_source=1"> Link </a> |
-
-<!--
-
-
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-To watch the BSE tutorial on how to create a portfolio, click here.
 
 
 
