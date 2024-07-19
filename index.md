@@ -19,12 +19,12 @@ I put together all the parts in my project as shown in the two figures below by 
 
 
 
-![two](1.png)
+![two](11.png)
 
 **Figure 1, picture of my project from the right side**
 
 
-![one](2.png)
+![one](22.png)
 
 **Figure 2, picture of my project from the left side**
 
