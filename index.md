@@ -1,7 +1,7 @@
 
 # **Bluestamp Smart Glasses** 
 ## Project Description
-My project is smart glasses. Smart glasses have a screen in one of the lenses that displays the time, date, temperature, notifications, and other information I want to display. The smart glasses can also take pictures or videos with a hidden camera, then use Bluetooth to connect to my phone and save the pictures.
+My project is the Smart Glasses, the Smart Glasses has a screen in one of the lenses that displays the time, date, temperature, notifications, and other information I want to display. The Smart Glasses can also take pictures with a hidden camera when I click a button on my phone, I don't need to connect my phone to my setup because I can just use bluetooth. Then I can access the images later from my Raspberry Pi. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -74,7 +74,7 @@ For my third milestone, I’m going to add a bluetooth module to my Raspberry PI
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gOLcSd5t2MM?si=gzrqmbKyC9g-1qKb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Summary
-For my first milestone, I made a code that takes a picture when I run it. This feature will be critical to my final product, smart glasses. 
+For my first milestone, I made a code that takes a picture when I run it. This feature will be critical to my final product, Smart Glasses. 
 
 ### How The Components Work Together:
 I used a RaspberryPI Zero, monitor, mouse, keyboard, micro USB adapter, Arducam OV5647, and micro SD-card for my first milestone. My RaspberryPI zero acts like a microscopic computer by processing code and running it. I edit it using my keyboard and mouse, and I can display it using my monitor. I flashed a bookworm OS which is a newer version of the OS onto my micro SD-card and I put it in my Raspberry PI. I did this by using an SD-card adapter to connect to my computer and I flashed my SD-card using the RaspberryPI imager. The image below shows the inputs of a Raspberry PI zero. 
@@ -114,7 +114,7 @@ When I tried configuring my libraries for my Picam, I couldn’t download the li
 In summary, I learned a few things from these challenges: how to use command prompt, how to use Arducam, I should check with an instructor before doing dangerous things like using the Sudo command(super user do), and I should always back up my information. 
 
 # What's Next?
-I plan on wiring up my transparent OLED to my Raspberry PI and writing a code that displays whatever I want on it. This will be a crucial step to my final product, the smart glasses. 
+I plan on wiring up my transparent OLED to my Raspberry PI and writing a code that displays whatever I want on it. This will be a crucial step to my final product, the Smart Glasses. 
 
 # **Starter Project - Retro Arcade Game** 
 
