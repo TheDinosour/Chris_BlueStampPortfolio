@@ -1,6 +1,4 @@
  # **Bluestamp Smart Glasses** 
-<!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
--->
 ## Project Description
 My project is smart glasses. Smart glasses have a screen in one of the lenses that displays the time, date, temperature, notifications, and anything else I want to display. The smart glasses also can take pictures or videos with a hidden camera, then use bluetooth to connect to my phone and save the pictures. 
 
@@ -8,9 +6,6 @@ My project is smart glasses. Smart glasses have a screen in one of the lenses th
 |:--:|:--:|:--:|:--:|
 | Christopher Y | Lynbrook High | Engineering | Rising Sophomore
 
-<!--
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
--->
 ![Headstone Image](CHRIStopher.png)
 
 
@@ -164,17 +159,21 @@ Depending on the game, the microprocessor plays different music through the buzz
 The instructions were quite unclear since there weren't any pictures for every part. For example, the instructions told me to screw in the battery before removing the paper that protects the transparent acrylic shells, which made me have to unscrew most of it and take off the paper. Another inconvenience with the project was the instructions didn’t say how to solder on the power wires, so I ended up doing it wrong, but it still worked. 
 
 
-Works Cited:
-- Figure 3: <sup>1.51inch Transparent OLED, 128×64 Resolution, SPI/I2C Interfaces, light blue color display, https://www.waveshare.com/1.51inch-transparent-oled.htm
-- Figure 4: <sup>How An OLED Transparent Display Works - Fermion: 1.51” OLED Transparent Display - DFR 0934, 2022, https://www.youtube.com/watch?v=d5JgE1I_2ag</sup>
-- Figure 5: <sup>A beginner's guide to the Raspberry Pi Zero, 2024, https://www.wired.com/story/raspberry-pi-zero-starter-guide/</sup>
-- Figure 6: <sup>How It Works: Push-Button, 2022, https://youtu.be/iCHAIeoSpI4?si=Y5pVrjMlbrwYN1v4</sup>
 
-<!--
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resources to create professional schematic diagrams, though BSE recommends Tinkercad because it can be done easily and for free in the browser. 
 
--->
+![glasses](glasses.png)
+
+**Figure 7, This is a picture of my glasses(Works Cited Below)**
+
+![OLEDHolder](OLEDHolder.png)
+
+**Figure 8, This is a picure of my OLED holder that I designed**
+
+![mirrorHolder](mirrorHolder.png)
+
+**Figure 9, This is a picture of my mirror holder that I designed**
+
 # Code
 
 ```
@@ -265,9 +264,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Micro-SD Card & micro-SD adapter | Storing information and flashing bookworm for my Raspberry PI | $9.74 | <a href="https://www.amazon.com/SanDisk-Ultra-microSDXC-Memory-Adapter/dp/B073JWXGNT/ref=asc_df_B073JWXGNT/?hvadid=692875362841&hvpos=&hvnetw=g&hvrand=7509480319074562991&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435180018&psc=1&mcid=a54fb9a681983531b610fec4c2253fbf&hvocijid=7509480319074562991-B073JWXGNT-&hvexpln=73&gad_source=1"> Link </a> |
 | Monitor | Displaying my Raspberry PI | $69.99 | <a href="https://www.amazon.com/PHILIPS-Adaptive-Replacement-Warranty-221V8LB/dp/B0CVM2GJCN/ref=asc_df_B0CVM2GJCN/?hvadid=692875362841&hvpos=&hvnetw=g&hvrand=1122924785419778454&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435178538&mcid=a010f7bbf2a33826af39def372ca9532&hvocijid=1122924785419778454-B0CVM2GJCN-&hvexpln=73&gad_source=1"> Link </a> |
 
-
-
-
-
-
-
+Works Cited:
+- Figure 3: <sup>1.51inch Transparent OLED, 128×64 Resolution, SPI/I2C Interfaces, light blue color display, https://www.waveshare.com/1.51inch-transparent-oled.htm
+- Figure 4: <sup>How An OLED Transparent Display Works - Fermion: 1.51” OLED Transparent Display - DFR 0934, 2022, https://www.youtube.com/watch?v=d5JgE1I_2ag</sup>
+- Figure 5: <sup>A beginner's guide to the Raspberry Pi Zero, 2024, https://www.wired.com/story/raspberry-pi-zero-starter-guide/</sup>
+- Figure 6: <sup>How It Works: Push-Button, 2022, https://youtu.be/iCHAIeoSpI4?si=Y5pVrjMlbrwYN1v4</sup>
+- Figure 7: <sup>How to Make Smart Glasses!, 2021, https://www.instructables.com/Smart-Glasses-V2/
