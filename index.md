@@ -39,7 +39,7 @@ I added a Mirror, 3D printed glasses, hinge x2, and other 3d printed parts. My p
 I realized the tutorial that I followed lied and he couldn't actually see the text on the screen(the tutorial had the screen right in front of your eyes) since it was too close, so I solved this challenge by using a mirror to increase the distance between my eye and my OLED. When I was putting my parts together, I started off super gluing the back of my raspberry pi to the inside of my glasses which made the wires stick out stabbing my head, so I got some help from an instructor and I used a dremel to cut a hole in my glasses so I could super glue some pin headers and my raspberry pi would stay on by being connected to my pin headers, then I had to dremel a hole into the side so that I could put my camera wire through. 
 
 ### Whats Next: 
-I plan on making a voice detection system and adding some more functions to my OLED mainly to balance both sides of my glasses because one side is a few pounds heavier than the other side. I learned a lot about Raspberry Pi's, cameras, OLEDs, got better at CADing, soldering, and most importantly I've gained a lot of patience in all my time at Bluestamp since my Raspberry Pi was so dang SLOW. My Raspberry Pi is really slow because it has 512 mega bytes of ram, meaning it has less memory and needs to read my SD-card really often. In the future, I hope to learn more about CADing and software such as coding.  
+I plan on making a voice detection system and adding some more functions to my OLED mainly to balance both sides of my glasses because one side is a few pounds heavier than the other side. I learned a lot about Raspberry Pi's, cameras, OLEDs, got better at CADing, soldering, and most importantly I've gained a lot of patience in all my time at Bluestamp since my Raspberry Pi was very SLOW. My Raspberry Pi is really slow because it has 512 mega bytes of ram, meaning it has less memory and needs to read my SD-card really often. In the future, I hope to learn more about CADing and software such as coding.  
 
 
 # Second Milestone - Transparent OLED
@@ -111,7 +111,7 @@ After I reflashed my SD-card, I tried putting it back into my RaspberryPI, howev
 
 When I tried configuring my libraries for my Picam, I couldn’t download the libcamera library and I changed my system to support it, then when I rebooted my setup, every time I tried to turn on my RaspberryPI again, it would stay stuck in a loading screen. To solve this problem, I had to reflash my SD-card, deleting all of my progress and it took 10 minutes to start up again. 
 
-In summary, I learned a few things from these challenges: how to use command prompt, how to use Arducam, I should check with an instructor before doing dangerous things like using the Sudo command(super user do), and I should always back up my information. 
+In summary, I learned a few things from these challenges: how to use command prompt, how to use Arducam, I should check with an instructor before doing veryerous things like using the Sudo command(super user do), and I should always back up my information. 
 
 # What's Next?
 I plan on wiring up my transparent OLED to my Raspberry PI and writing a code that displays whatever I want on it. This will be a crucial step to my final product, the Smart Glasses. 
