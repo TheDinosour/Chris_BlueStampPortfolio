@@ -15,7 +15,7 @@ My project is smart glasses. Smart glasses have a screen in one of the lenses th
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fto_NLnq1OM?si=2Rw3Fly_OoWuwvHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Summary: 
-I put together all the parts in my project as shown in the two figures below by connecting my main glasses to my left and right temples using a 3d printed hinge, allowing me to freely move my glasses using super glue. Then I cut a hole in the right side of my temple so that I could super glue my pin headers and secure my Raspberry Pi onto my pin headers, after that I cut another hole into the side of my right temple, so that I could connect my camera to my Raspberry Pi. 
+I put together all the parts in my project as shown in the two figures below by connecting my main glasses to my left and right temples using a 3d printed hinge, allowing me to freely move my glasses using super glue. Then I cut a hole in the right side of my temple so that I could super glue my pin headers and secure my Raspberry Pi onto my pin headers, after that I cut another hole into the side of my right temple, so that I could connect my camera to my Raspberry Pi. The following video shows me taking a test picture as well as a close up of my mirror, showing my OLED. 
 
 
 
@@ -28,6 +28,7 @@ I put together all the parts in my project as shown in the two figures below by 
 
 **Figure 2**
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BJ6p8OBOhrs?si=zfvmQkON6X7zWjP6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Components Added:
 Mirror, 3D printed glasses, hinge x2, and other 3d printed parts
@@ -105,6 +106,7 @@ My RaspberryPI zero acts like a microscopic computer by processing code and runn
 I also downloaded the libcamera library in my RaspberryPI for my Arducam. Libraries let me use different functions, for example I can take a picture with my camera using a simple line with the OS library that runs the libcamera library. The OS library is really complicated and has a lot of different functions not just for cameras. The command I ran is shown below. 
 
 `import os`
+
 `os.system("libcamera-still -o picture.jpg")`
 
 
