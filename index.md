@@ -19,7 +19,7 @@ I put together all the parts in my project as shown in the two figures below by 
 
 
 
-![two](111.png)
+![two](1111.png)
 
 **Figure 1, picture of my project from the side**
 
