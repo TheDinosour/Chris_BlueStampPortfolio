@@ -175,7 +175,9 @@ The instructions were quite unclear since there weren't any pictures for every p
 
 **Figure 9, This is a picture of my mirror holder that I designed**
 
+![hinge](hinge.png)
 
+**Figure 10, This is a picture of my hinge(Works Cited Below)**
 
 # Code
 
