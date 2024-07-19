@@ -114,7 +114,7 @@ When I tried configuring my libraries for my Picam, I couldn’t download the li
 In summary, I learned a few things from these challenges: how to use command prompt, how to use Arducam, I should check with an instructor before doing dangerous things like using the Sudo command(super user do), and I should always back up my information. 
 
 # What's Next?
-I plan on wiring up my transparent OLED to my Raspberry PI and writing a code that displays whatever I want on it. 
+I plan on wiring up my transparent OLED to my Raspberry PI and writing a code that displays whatever I want on it. This will be a crucial step to my final product, the smart glasses. 
 
 # **Starter Project - Retro Arcade Game** 
 
@@ -123,12 +123,8 @@ I plan on wiring up my transparent OLED to my Raspberry PI and writing a code th
 ### Explanation
 My starter project is a mini arcade game. I can play tetris, snake game, car racing, space invaders, and you can gamble on a slot machine by using 7 buttons - up, down, left, right, start, pause/leave, and start/power off. I can play tetris by moving the randomly generated block left/right and speed up the drop with the down arrow. I can also rotate the block with the green button and I can pause the game with the yellow button. For the snake game, I can move the snake in all four directions to eat the brightly glowing dot, I can also pause the game with the yellow button and speed the snake up with my green button. For my car racing game, I can move left or right to dodge the incoming cars. I can also use the green button to speed up and the yellow button to pause. For my space invaders game, I can move left and right to shoot at the monsters directly above me and shoot with my green button. And I can also use the yellow button to pause the game. Finally, for my slot machine game, I can wager up to 9 credits which allows me to have a random chance of winning by getting a "777". I can also use the yellow button to quit the game.
 
-### Components Used
-LED Matrix x2, 7 Segment Display, Buzzer, Button x7, Capacitor, Battery holder, AAA Battery x3, Transparent Acrylic Shell x 4, Integrated Circuit/Microprocessor, and PCB. 
-
 ### How The Components Work Together:
-
-The microprocessor is a tiny component that processes the inputs from the 7 buttons/switches and gives outputs to the screen and seven segment display.
+I used a LED Matrix x2, 7 Segment Display, Buzzer, Button x7, Capacitor, Battery holder, AAA Battery x3, Transparent Acrylic Shell x 4, Integrated Circuit/Microprocessor, and PCB. The microprocessor is a tiny component that processes the inputs from the 7 buttons/switches and gives outputs to the screen and seven segment display.
 
 
 ![both](bothupanddown.png)
@@ -142,8 +138,6 @@ Depending on the game, the microprocessor plays different music through the buzz
 
 ### Challenges Faced:
 The instructions were quite unclear since there weren't any pictures for every part. For example, the instructions told me to screw in the battery before removing the paper that protects the transparent acrylic shells, which made me have to unscrew most of it and take off the paper. Another inconvenience with the project was the instructions didn’t say how to solder on the power wires, so I ended up doing it wrong, but it still worked. 
-
-
 
 # Schematics 
 
