@@ -1,7 +1,7 @@
 
 # **Bluestamp Smart Glasses** 
 ## Project Description
-My project is the Smart Glasses, the Smart Glasses has a screen in one of the lenses that displays the time, date, temperature, notifications, and other information I want to display. The Smart Glasses can also take pictures with a hidden camera when I click a button on my phone, I don't need to connect my phone to my setup because I can just use bluetooth. Then I can access the images later from my Raspberry Pi. 
+My project is the Smart Glasses. The Smart Glasses have a screen in one of the lenses that displays the time, date, temperature, notifications, and other information I want to display. The Smart Glasses can also take pictures with a hidden camera when I click a button on my phone. I don't need to connect my phone to my setup because I can just use Bluetooth. Then, I can access the images later from my Raspberry Pi. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -33,13 +33,13 @@ The following video shows me taking a test picture as well as a close up of my m
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BJ6p8OBOhrs?si=zfvmQkON6X7zWjP6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### How the Components Work: 
-I added a Mirror, 3D printed glasses, hinge x2, and other 3d printed parts. My parts work together when I look through my mirror which reflects my vision to my OLED. Since mirrors rotate images, I flipped the direction of how my OLED displays things. My Raspberry Pi connects to my phone using bluetooth with an app called blue dot, a big blue button that takes a picture when I click the big blue button. All of this works through bluetooth, or communication using ultra-high frequency radio waves. 
+I added a Mirror, 3D printed glasses, hinge x2, and other 3d printed parts. My parts work together when I look through my mirror which reflects my vision to my OLED. Since mirrors invert images, I flipped the direction of how my OLED displays things. My Raspberry Pi connects to my phone using bluetooth with an app called blue dot, a big blue button that takes a picture when I click the big blue button. All of this works through bluetooth, or communication using ultra-high frequency radio waves. 
 
 ### Challenges
-I realized the tutorial that I followed lied and he couldn't actually see the text on the screen(the tutorial had the screen right in front of your eyes) since it was too close, so I solved this challenge by using a mirror to increase the distance between my eye and my OLED. When I was putting my parts together, I started off super gluing the back of my raspberry pi to the inside of my glasses which made the wires stick out stabbing my head, so I got some help from an instructor and I used a dremel to cut a hole in my glasses so I could super glue some pin headers and my raspberry pi would stay on by being connected to my pin headers, then I had to dremel a hole into the side so that I could put my camera wire through. 
+I realized the tutorial that I followed lied and he couldn't actually see the text on the screen (the tutorial had the screen right in front of your eyes) since it was too close, so I solved this challenge by using a mirror to increase the distance between my eye and my OLED. When I was putting my parts together, I started off super gluing the back of my Raspberry Pi to the inside of my glasses which made the wires stick out stabbing my head, so I got some help from an instructor and I used a Dremel to cut a hole in my glasses so I could super glue some pin headers and my Raspberry Pi would stay on by being connected to my pin headers, then I had to Dremel a hole into the side so that I could put my camera wire through. 
 
-### Whats Next: 
-I plan on making a voice detection system and adding some more functions to my OLED mainly to balance both sides of my glasses because one side is a few pounds heavier than the other side. I learned a lot about Raspberry Pi's, cameras, OLEDs, got better at CADing, soldering, and most importantly I've gained a lot of patience in all my time at Bluestamp since my Raspberry Pi was very SLOW. My Raspberry Pi is really slow because it has 512 mega bytes of ram, meaning it has less memory and needs to read my SD-card really often. In the future, I hope to learn more about CADing and software such as coding. My experience at Bluestamp has been pretty fun and I learned a lot such as I learned how to use Raspberry Pi's, cameras, libraries, how to use the terminal, ect. The staff were really nice and I enjoyed my time at Bluestamp. I also enjoyed working on my project and overcoming the many challenges I faced. 
+### What's Next: 
+I plan on making a voice detection system and adding some more functions to my OLED mainly to balance both sides of my glasses because one side is a few pounds heavier than the other side. I learned a lot about Raspberry Pi's, cameras, OLEDs, got better at CADing, soldering, and most importantly I've gained a lot of patience in all my time at Bluestamp since my Raspberry Pi was very SLOW. My Raspberry Pi is really slow because it has 512 megabytes of RAM, meaning it has less memory and needs to read my SD card really often. In the future, I hope to learn more about CAD-ing and software such as coding. My experience at Bluestamp has been pretty fun and I learned a lot. I learned how to use Raspberry Pi's, cameras, libraries, how to use the terminal, and a lot more. The staff were really nice and I enjoyed my time at Bluestamp. I also enjoyed working on my project and overcoming the many challenges I faced. 
 
 
 # Second Milestone - Transparent OLED
@@ -47,7 +47,7 @@ I plan on making a voice detection system and adding some more functions to my O
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_10FKafzVV8?si=LjEFAiIfmrRXgP56" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### How The Component works
-For this milestone, I added a transparent OLED. My OLED stands for Organic Light Emitting Diode, it is made of roughly 2500 pixels(I did the math). Each of these pixels are made out of one Light Emitting Diode and turns blue when I turn them on. This allows me to display different shapes and text that I can code it to. My OLED is transparent because all the LEDs are spaced apart just enough so that light can pass through it as shown in the figure below. 
+For this milestone, I added a transparent OLED. OLED stands for Organic Light Emitting Diode, meaning a screen made out of a bunch of Light Emitting Diodes. It is made of roughly 2500 pixels(I did the math). Each of these pixels are made out of one Light Emitting Diode and turns blue when I power them on. This allows me to display different shapes and text that I can code it to. Also, my OLED is transparent because all the LEDs are spaced apart just enough so that light can pass through it as shown in the figure below. 
 
 
 ![OLED](OLED.png)
@@ -60,11 +60,11 @@ For this milestone, I added a transparent OLED. My OLED stands for Organic Light
 
 
 **Figure 4. My OLED is wired to a mini drive board which first boosts the supply voltage from the Raspberry PI from VCC to 12V5 volts based on the schematic(See schematic link 1 below), the driver is also responsible for regulating the logic levels of the I2C/SPI transparent OLED. A level conversion circuit makes sure an acceptable threshold voltage is provided for a logic high or low during data transmission, Then limits the amount of current going from my RaspberryPI to my OLED, this is because LED's are so small that they don't have a resistor, so they easily get overheated and break when too much current is flowing through it.(Works Cited Below)**
-<!--https://www.waveshare.com/w/upload/0/03/1.51inch_OLED_Transparent_Driver_Board_Schematic.pdf-->
+<!--https://www.Waveshare.com/w/upload/0/03/1.51inch_OLED_Transparent_Driver_Board_Schematic.pdf-->
 
 
 ### Challenges: 
-I faced three challenges, the first one is I started off trying to use the luma library test code off github, but I got an error that said luma was not found. I fixed this error by using waveshare since that's my OLED’s brand and I connected my wires according to the website. My second challenge is I accidentally used the C library instead of the Python library where I was doing all my code through waveshare, which made me have to redownload all the files for my OLED. My third challenge was when I got my OLED to display, I had to rotate the screen in order to hide the wires that come out of my OLED. I did this by changing a line in my code called image1 = image1.rotate(270, expand = True) which rotated my display and resize the screen. 
+I faced three challenges, the first one is when I started off trying to use the luma library (one of the more popular OLED libraries) test code off github, but I got an error that said luma was not found. I fixed this error by using Waveshare since that's my OLED’s brand and I connected my wires according to the websites tutorial. My second challenge is I accidentally used the C programming language library instead of the Python programming language library inside one of the Waveshare libraries, which made me have to redownload all the files for my OLED. My third challenge was when I got my OLED to display, I had to rotate the screen, so when I placed it in front of my eye, I could tuck the wires to the side. I did this by changing a line in my code called image1 = image1.rotate(270, expand = True) which rotated my display and resize the screen. 
 
 ### Whats Next: 
 For my third milestone, I’m going to add a bluetooth module to my Raspberry PI that can connect to my phone, then I can display whatever I want and take pictures wirelessly. Also, I plan on adding a system that made my OLED further away from my eyes, since it is really hard to see the text on my OLED since its too blurry. 
@@ -77,7 +77,7 @@ For my third milestone, I’m going to add a bluetooth module to my Raspberry PI
 For my first milestone, I made a code that takes a picture when I run it. This feature will be critical to my final product, Smart Glasses. 
 
 ### How The Components Work Together:
-I used a RaspberryPI Zero, monitor, mouse, keyboard, micro USB adapter, Arducam OV5647, and micro SD-card for my first milestone. My RaspberryPI zero acts like a microscopic computer by processing code and running it. I edit it using my keyboard and mouse, and I can display it using my monitor. I flashed a bookworm OS which is a newer version of the OS onto my micro SD-card and I put it in my Raspberry PI. I did this by using an SD-card adapter to connect to my computer and I flashed my SD-card using the RaspberryPI imager. The image below shows the inputs of a Raspberry PI zero. 
+I used a RaspberryPI Zero, monitor, mouse, keyboard, micro USB adapter, Arducam OV5647, and micro SD card for my first milestone. My RaspberryPI zero acts like a microscopic computer by processing code and running it. I edit my Raspberry Pi by using my keyboard, mouse, and monitor by connecting it all together. I flashed a bookworm OS which is a newer version of the OS onto my micro SD card and I put it in my Raspberry PI. I did this by using an SD card adapter to connect to my computer and I flashed my SD card using the RaspberryPI imager. The image below shows the inputs of a Raspberry PI zero. 
 
 ![raspPi](raspbpi.png)
 
@@ -93,23 +93,23 @@ I also downloaded the libcamera library in my RaspberryPI for my Arducam. Librar
 
 
 ### Challenges Faced(not all said in video):
-I faced many challenges such as when I was trying to flash my SD card, I looked at one of the tutorials in the project resources document, however it was outdated, so I flashed my SD card multiple times when I was trying to figure out how I could configure my SD-card. Configuring an SD-card allows me to use ssh to connect to a Raspberry PI, however when I tried using an app called PuTTy to connect my RaspberryPI to my computer using SSH,  it didn't work since I have a Windows computer. 
+I faced many challenges such as when I was trying to flash my SD card, I looked at one of the tutorials in the project resources document, however it was outdated, so I flashed my SD card multiple times when I was trying to figure out how I could configure my SD card. Configuring an SD card allows me to use ssh to connect to a Raspberry PI, however when I tried using an app called PuTTy to connect my RaspberryPI to my computer using SSH,  it didn't work since I have a Windows computer. 
 
 Then, I tried connecting to my RaspberryPI using OBS, a recorder software with VNC, transferring a keyboard and mouse to a different computer, however that didn’t work, which I'm pretty sure is because I have a Windows computer. In the end, I had to get a monitor and I had to connect my keyboard and mouse to it using an adapter since my Raspberry PI only had one input.
 
 After I connected my inputs to my RaspberryPI Zero, the smallest RaspberryPI and a computer that costs $15, and I tried to turn it on, I realized it was glacial, like it took 2 minutes to boot up everytime and could barely run the internet. Then when I connected my camera to my RaspberryPI, I needed an adapter because the Arducam wasn’t made for a Raspberry PI  as small as mine, so I asked some staff to deliver me one. Additionally, my setup requires 5 volts to power on and I didn’t know that, so it didn’t turn on for a while. 
 
-When I finally got my RaspberryPI to display, I had to move the code from the tutorial to my RaspberryPI. I first tried putting the code into a file on my SD-card, however since I have a Windows, my computer only displays a single file in my RaspberryPI called bootfs, and I couldn’t find the file on my Raspberry PI, so I couldn’t move my code through my SD-card. Then I tried using Chrome and Firefox to access the internet, however neither was supported on RaspberryPI zero. To solve that problem,I installed another browser called Midori. I then copied the code on my computer and put it in a doc so I could access it easier with my RaspberryPI, and getting my code took at least 10 minutes. 
+When I finally got my RaspberryPI to display, I had to move the code from the tutorial to my RaspberryPI. I first tried putting the code into a file on my SD card, however since I have a Windows, my computer only displays a single file in my RaspberryPI called bootfs, and I couldn’t find the file on my Raspberry PI, so I couldn’t move my code through my SD card. Then I tried using Chrome and Firefox to access the internet, however neither was supported on RaspberryPI zero. To solve that problem,I installed another browser called Midori. I then copied the code on my computer and put it in a doc so I could access it easier with my RaspberryPI, and getting my code took at least 10 minutes. 
 
 Then after that, I tried installing the necessary libraries such as Picam(for my camera) and Luma(for my display) for my project, however I kept on getting an error which prevented me from installing any of the libraries. In the end, I used a virtual environment, an isolated area in my computer, to install my libraries and I had to run the code in there.
 
 When I tried running a test code for my Picam, it would give me an error that said Picamera was not found, so I had to install Picamera2, but that didn’t work either. After that, I searched it up and tried using chat GPT, and I ended up switching to Libcamera, a different camera library. After that I could only run code for a test picture, since Libcamera wasn’t very reliable, and since the test picture ran through my command prompt, I couldn’t write it in python which is my first milestone. 
 
-After some troubleshooting, I got another error where whenever I ran any command that installed, updated something, or ran any code, I got an attribute error saying ‘platform’ has no attribute ‘system’. I couldn’t find a solution to this error, so I tried replacing my current platform file with a file I found online which had about 10 times as many lines, however it didn’t work. Then an instructor told me to try reflashing my SD-card which would delete all my progress since he thought one of my files had corrupted, and so I did. 
+After some troubleshooting, I got another error where whenever I ran any command that installed, updated something, or ran any code, I got an attribute error saying ‘platform’ has no attribute ‘system’. I couldn’t find a solution to this error, so I tried replacing my current platform file with a file I found online which had about 10 times as many lines, however it didn’t work. Then an instructor told me to try reflashing my SD card which would delete all my progress since he thought one of my files had corrupted, and so I did. 
 
-After I reflashed my SD-card, I tried putting it back into my RaspberryPI, however when I wired everything, my monitor didn’t turn on and I tried doing just about everything to turn it on. After some debugging, I realized that my SD-card had some scratches on the gold part, the information part, which was probably messing up my RaspberryPI. Another instructor found me another SD-card and it took double the time to boot up however it worked. 
+After I reflashed my SD card, I tried putting it back into my RaspberryPI, however when I wired everything, my monitor didn’t turn on and I tried doing just about everything to turn it on. After some debugging, I realized that my SD card had some scratches on the gold part, the information part, which was probably messing up my RaspberryPI. Another instructor found me another SD card and it took double the time to boot up however it worked. 
 
-When I tried configuring my libraries for my Picam, I couldn’t download the libcamera library and I changed my system to support it, then when I rebooted my setup, every time I tried to turn on my RaspberryPI again, it would stay stuck in a loading screen. To solve this problem, I had to reflash my SD-card, deleting all of my progress and it took 10 minutes to start up again. 
+When I tried configuring my libraries for my Picam, I couldn’t download the libcamera library and I changed my system to support it, then when I rebooted my setup, every time I tried to turn on my RaspberryPI again, it would stay stuck in a loading screen. To solve this problem, I had to reflash my SD card, deleting all of my progress and it took 10 minutes to start up again. 
 
 In summary, I learned a few things from these challenges: how to use command prompt, how to use Arducam, I should check with an instructor before doing veryerous things like using the Sudo command(super user do), and I should always back up my information. 
 
@@ -176,7 +176,7 @@ if os.path.exists(libdir):
 import datetime
 import logging    
 import traceback
-from waveshare_OLED import OLED_0in96
+from Waveshare_OLED import OLED_0in96
 from PIL import Image,ImageDraw,ImageFont
 logging.basicConfig(level=logging.DEBUG)
 
@@ -235,7 +235,7 @@ except KeyboardInterrupt:
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Transparent OLED | Displaying Notifications, Time, ect | $19.99 | <a href="https://www.waveshare.com/1.51inch-transparent-oled.htm"> Link </a> |
+| Transparent OLED | Displaying Notifications, Time, ect | $19.99 | <a href="https://www.Waveshare.com/1.51inch-transparent-oled.htm"> Link </a> |
 | Raspberry PI Zero W (with headers)| Processing code | $16.00 | <a href="https://www.adafruit.com/product/3708"> Link </a> |
 | Arducam | Taking pictures and videos | $13.99 | <a href="https://www.amazon.com/Camera-Arducam-Raspberry-Raspbian-MotionEye/dp/B01LY05LOE/ref=asc_df_B01LY05LOE/?hvadid=692875362841&hvpos=&hvnetw=g&hvrand=17700836446167088182&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435178578&psc=1&mcid=7c3d8b8b4acb3187a1cf954ff2bc5aee&hvocijid=17700836446167088182-B01LY05LOE-&hvexpln=73&gad_source=1"> Link </a> |
 | Bluetooth Module | Connecting my Raspberry PI to my phone | $7.75 | <a href="https://www.amazon.com/Bluetooth-Converter-Wireless-Transceiver-Communication/dp/B08Z3J9Y8T/ref=asc_df_B08Z3J9Y8T/?hvadid=692875362841&hvpos=&hvnetw=g&hvrand=7615094489009984384&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435178378&psc=1&mcid=09c63181a6f33002b15885036c83ccfd&hvocijid=7615094489009984384-B08Z3J9Y8T-&hvexpln=73&gad_source=1"> Link </a> |
@@ -248,7 +248,7 @@ except KeyboardInterrupt:
 
 Works Cited:
 
-<sup>- Figure 3: 1.51inch Transparent OLED, 128×64 Resolution, SPI/I2C Interfaces, light blue color display, https://www.waveshare.com/1.51inch-transparent-oled.htm
+<sup>- Figure 3: 1.51inch Transparent OLED, 128×64 Resolution, SPI/I2C Interfaces, light blue color display, https://www.Waveshare.com/1.51inch-transparent-oled.htm
 
 <sup>- Figure 4: How An OLED Transparent Display Works - Fermion: 1.51” OLED Transparent Display - DFR 0934, 2022, https://www.youtube.com/watch?v=d5JgE1I_2ag</sup>
 
