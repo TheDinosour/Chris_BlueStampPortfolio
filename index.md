@@ -2,7 +2,7 @@
 <!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 -->
 ## Project Description
-My project is smart glasses. Smart glasses have a screen in one of the lenses that displays the time, date, temperature, notifications, and anything else I want to display. The smart glasses also can take pictures or videos with a hidden camera, then use bluetooth to connect to my phone and save the pictures/videos. This secretive gadget will also be able to play music and take sound inputs. 
+My project is smart glasses. Smart glasses have a screen in one of the lenses that displays the time, date, temperature, notifications, and anything else I want to display. The smart glasses also can take pictures or videos with a hidden camera, then use bluetooth to connect to my phone and save the pictures/videos. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -13,17 +13,38 @@ My project is smart glasses. Smart glasses have a screen in one of the lenses th
 -->
 ![Headstone Image](CHRIStopher.png)
 
-<!-- 
+
 # Final Milestone
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fto_NLnq1OM?si=2Rw3Fly_OoWuwvHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+# Summary: 
+I put together all the parts in my project as shown in the two figure below. 
 
-What you've accomplished since your previous milestone
-Biggest challenges
-What I learned
-What I hope to learn after BSE
--->
+
+![one].
+
+
+![two].
+
+# Components Added:
+Mirror, 3D printed glasses, hinge x2, and other 3d printed parts
+
+# How the Components Work: 
+I look through my mirror which reflects my vision to my OLED and since mirrors rotate the image, so I fliped the direction of my OLED. My Raspberry Pi connects to phone using bluetooth with an app called blue dot, a big blue button that takes a picture when I click the big blue button, all of this works through bluetooth, communication using ultra-high frequency radio waves. 
+
+# Challenges
+I realized the tutorial lied and he couldn't actually see the text on the screen since it was too close, so I solved this challenge by using a mirror to increase the distance between my eye and my OLED. When I was putting my parts together, I started off super gluing the back of my raspberry pi to the inside of my glasses which made the wires stick out into my head, I got some help from an instructor and I used a dremel to cut a hole in my glasses so I could super glue some pin headers and my raspberry pi would stay on by being connected to my pin headers, then I had to dremel a hole into the side so that I could put my camera wire through. 
+
+# Whats Next: 
+I plan on making a voice detection system and adding some more functions to my OLED. 
+
+# What I learned
+I learned a lot aout Raspberry Pi's, cameras, OLEDs, got better at CADing, soldering, and most importantly I learned a lot of patience in all my time at bluestamp since my Raspberry Pi was so darn SLOW. 
+
+# What I hope to learn after BSE
+I hope to learn more about Mechanical Engineering and software - mainly coding. 
+
 
 # Second Milestone - Transparent OLED
 
@@ -42,13 +63,13 @@ My transparent OLED stands for Organic Light Emitting Diode, it is made of rough
 ![OLED](OLED.png)
 
 
-**Figure 1. Here, the blue squares represent the LEDs. As you can see they are evenly spaced apart, allowing light to pass, making it transparent.(Works Cited Below)**
+**Figure 3. Here, the blue squares represent the LEDs. As you can see they are evenly spaced apart, allowing light to pass, making it transparent.(Works Cited Below)**
 
 
 ![OLED2](oled2.png)
 
 
-**Figure 2. My OLED is wired to a mini drive board which first boosts the suply voltage from the Raspberry PI from VCC to 12V5 volts based on the schematic(See schematic link 1 below), the driver is also responsible for regulating the logic levels of the I2C/SPI transparent OLED. A level conversion circuit makes sure an acceptable threshhold voltage is provided for a logic high or low during data transmission, Then limits the amount of current going from my RaspberryPI to my OLED, this is because LED's are so small that they don't have a resistor, so they easily get overheated and break when too much current is flowing through it.(Works Cited Below)**
+**Figure 4. My OLED is wired to a mini drive board which first boosts the suply voltage from the Raspberry PI from VCC to 12V5 volts based on the schematic(See schematic link 1 below), the driver is also responsible for regulating the logic levels of the I2C/SPI transparent OLED. A level conversion circuit makes sure an acceptable threshhold voltage is provided for a logic high or low during data transmission, Then limits the amount of current going from my RaspberryPI to my OLED, this is because LED's are so small that they don't have a resistor, so they easily get overheated and break when too much current is flowing through it.(Works Cited Below)**
 <!--https://www.waveshare.com/w/upload/0/03/1.51inch_OLED_Transparent_Driver_Board_Schematic.pdf-->
 
 
@@ -76,7 +97,7 @@ My RaspberryPI zero acts like a microscopic computer by processing code and runn
 
 ![raspPi](raspbpi.png)
 
-**Figure 3. This is an image of an Raspberry PI and all its inputs with captions.(Works Cited Below)**
+**Figure 5. This is an image of an Raspberry PI and all its inputs with captions.(Works Cited Below)**
 
 
 I also downloaded the libcamera library in my RaspberryPI for my Arducam. Libraries let me use different functions, for example I can take a picture with my camera using a simple line with the OS library that runs the libcamera library. The OS library is really complicated and has a lot of different functions not just for cameras. The command I ran is shown below. 
@@ -127,7 +148,7 @@ The microprocessor is a tiny component that processes the inputs from the 7 butt
 
 ![both](bothupanddown.png)
 
-**Figure 3. The switches work by completing an electric circuit when pressed, this is from the small metal springs coming in contact with the two wires on the bottom, allowing electricity to flow, seen in the figure on the right. When the button is at rest, the moveable contact is in contact with the top two wires, seen in the figure on the left. (Works Cited Below)**
+**Figure 6. The switches work by completing an electric circuit when pressed, this is from the small metal springs coming in contact with the two wires on the bottom, allowing electricity to flow, seen in the figure on the right. When the button is at rest, the moveable contact is in contact with the top two wires, seen in the figure on the left. (Works Cited Below)**
 
 
 
@@ -139,10 +160,10 @@ The instructions were quite unclear since there weren't any pictures for every p
 
 
 Works Cited:
-- Figure 1: <sup>1.51inch Transparent OLED, 128×64 Resolution, SPI/I2C Interfaces, light blue color display, https://www.waveshare.com/1.51inch-transparent-oled.htm
-- Figure 2: <sup>How An OLED Transparent Display Works - Fermion: 1.51” OLED Transparent Display - DFR 0934, 2022, https://www.youtube.com/watch?v=d5JgE1I_2ag</sup>
-- Figure 3: <sup>A beginner's guide to the Raspberry Pi Zero, 2024, https://www.wired.com/story/raspberry-pi-zero-starter-guide/</sup>
-- Figure 4: <sup>How It Works: Push-Button, 2022, https://youtu.be/iCHAIeoSpI4?si=Y5pVrjMlbrwYN1v4</sup>
+- Figure 3: <sup>1.51inch Transparent OLED, 128×64 Resolution, SPI/I2C Interfaces, light blue color display, https://www.waveshare.com/1.51inch-transparent-oled.htm
+- Figure 4: <sup>How An OLED Transparent Display Works - Fermion: 1.51” OLED Transparent Display - DFR 0934, 2022, https://www.youtube.com/watch?v=d5JgE1I_2ag</sup>
+- Figure 5: <sup>A beginner's guide to the Raspberry Pi Zero, 2024, https://www.wired.com/story/raspberry-pi-zero-starter-guide/</sup>
+- Figure 6: <sup>How It Works: Push-Button, 2022, https://youtu.be/iCHAIeoSpI4?si=Y5pVrjMlbrwYN1v4</sup>
 
 <!--
 # Schematics 
