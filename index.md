@@ -22,10 +22,15 @@ My project is smart glasses. Smart glasses have a screen in one of the lenses th
 I put together all the parts in my project as shown in the two figure below. 
 
 
-![one].
+
+![two](two.jpg)
+**Figure 1**
 
 
-![two].
+![one](one.jpg)
+**Figure 2**
+
+
 
 # Components Added:
 Mirror, 3D printed glasses, hinge x2, and other 3d printed parts
@@ -169,22 +174,81 @@ Works Cited:
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resources to create professional schematic diagrams, though BSE recommends Tinkercad because it can be done easily and for free in the browser. 
 
-# Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
-
-```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
-```
 -->
+# Code
+
+```
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
+ 
+from bluedot import BlueDot
+from signal import pause
+import time
+bd = BlueDot()
+import sys
+import os
+picdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'pic')
+libdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'lib')
+if os.path.exists(libdir):
+    sys.path.append(libdir)
+import datetime
+import logging    
+import traceback
+from waveshare_OLED import OLED_0in96
+from PIL import Image,ImageDraw,ImageFont
+logging.basicConfig(level=logging.DEBUG)
+
+def pressed(e):
+    os.system("libcamera-still -o Picture.jpg")
+    img = Image.open("Picture.jpg")
+    img = img.rotate(-90, expand = True)
+    img.save("Picture2.jpg")
+def display_time():
+    last_day = None
+    current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+    while True:
+        current_time = datetime.datetime.now().strftime("%H:%M:%S")
+        new_day = datetime.datetime.now().strftime("%Y-%m-%d")
+
+        if new_day != current_date:
+            current_date = new_day
+            last_day = new_day
+        disp.clear()
+        image = Image.new('1', (disp.height, disp.width), "WHITE")
+        draw = ImageDraw.Draw(image)
+
+        font = ImageFont.truetype(os.path.join(picdir, 'Font.ttc'), 10)
+        draw.text((2, 0), current_time, font=font, fill=0)
+        draw.text((2, 9), current_date, font=font, fill=0)
+
+        image = image.rotate(90, expand=True)
+        image = image.transpose(Image.FLIP_TOP_BOTTOM)
+        disp.ShowImage(disp.getbuffer(image))
+
+        time.sleep(1)
+        bd.when_pressed = pressed
+
+try:
+    disp = OLED_0in96.OLED_0in96() # not actually using 0.96 inch OLED, this size doesn't really matter
+
+    logging.info("\r 0.96inch OLED ")
+    disp.Init()
+
+    logging.info("clear display")
+    disp.clear()
+
+    display_time() 
+
+except IOError as e:
+    logging.info(e)
+    
+except KeyboardInterrupt:    
+    logging.info("ctrl + c:")
+    disp.module_exit()
+    exit()
+
+```
+
 # Bill of Materials
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
