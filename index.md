@@ -14,38 +14,38 @@ My project is smart glasses. Smart glasses have a screen in one of the lenses th
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fto_NLnq1OM?si=2Rw3Fly_OoWuwvHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Summary: 
+### Summary: 
 I put together all the parts in my project as shown in the two figures below by connecting my main glasses to my left and right temples using a 3d printed hinge, allowing me to freely move my glasses using super glue. Then I cut a hole in the right side of my temple so that I could super glue my pin headers and secure my Raspberry Pi onto my pin headers, after that I cut another hole into the side of my right temple, so that I could connect my camera to my Raspberry Pi. The following video shows me taking a test picture as well as a close up of my mirror, showing my OLED. 
 
 
 
 ![two](1.png)
 
-**Figure 1**
+**Figure 1, picture of my project from the right side**
 
 
 ![one](2.png)
 
-**Figure 2**
+**Figure 2, picture of my project from the left side**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BJ6p8OBOhrs?si=zfvmQkON6X7zWjP6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Components Added:
+### Components Added:
 Mirror, 3D printed glasses, hinge x2, and other 3d printed parts
 
-# How the Components Work: 
+### How the Components Work: 
 I look through my mirror which reflects my vision to my OLED and since mirrors rotate the image, I flipped the direction of my OLED. My Raspberry Pi connects to my phone using bluetooth with an app called blue dot, a big blue button that takes a picture when I click the big blue button. All of this works through bluetooth, communication using ultra-high frequency radio waves. 
 
-# Challenges
+### Challenges
 I realized the tutorial lied and he couldn't actually see the text on the screen since it was too close, so I solved this challenge by using a mirror to increase the distance between my eye and my OLED. When I was putting my parts together, I started off super gluing the back of my raspberry pi to the inside of my glasses which made the wires stick out into my head, I got some help from an instructor and I used a dremel to cut a hole in my glasses so I could super glue some pin headers and my raspberry pi would stay on by being connected to my pin headers, then I had to dremel a hole into the side so that I could put my camera wire through. 
 
-# Whats Next: 
+### Whats Next: 
 I plan on making a voice detection system and adding some more functions to my OLED. 
 
-# What I learned
+### What I learned
 I learned a lot about Raspberry Pi's, cameras, OLEDs, got better at CADing, soldering, and most importantly I learned a lot of patience in all my time at bluestamp since my Raspberry Pi was so darn SLOW. 
 
-# What I hope to learn after BSE
+### What I hope to learn after BSE
 I hope to learn more about Mechanical Engineering and software - mainly coding. 
 
 
@@ -53,13 +53,13 @@ I hope to learn more about Mechanical Engineering and software - mainly coding.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_10FKafzVV8?si=LjEFAiIfmrRXgP56" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Progress:
+### Progress:
 Slightly behind schedule, but I'm around 60% done with my project. 
 
-# Component Added: 
+### Component Added: 
 Transparent OLED
 
-# How The Component works
+### How The Component works
 My transparent OLED stands for Organic Light Emitting Diode, it is made of roughly 2500 pixels(I did the math). Each of these pixels are made out of one Light Emitting Diode and turns blue when I turn them on. This allows me to display different shapes and text that I can code it to. My OLED is transparent because all the LEDs are spaced apart just enough so that light can pass through it as shown in the figure below. 
 
 
@@ -76,13 +76,13 @@ My transparent OLED stands for Organic Light Emitting Diode, it is made of rough
 <!--https://www.waveshare.com/w/upload/0/03/1.51inch_OLED_Transparent_Driver_Board_Schematic.pdf-->
 
 
-# Challenges: 
+### Challenges: 
 I faced three challenges, the first one is I started off trying to use the luma library test code off github, but I got an error that said luma was not found. I fixed this error by using waveshare since that's my OLED’s brand and I connected my wires according to the website. My second challenge is I accidentally used the C library instead of the Python library where I was doing all my code through waveshare, which made me have to redownload all the files for my OLED. My third challenge was when I got my OLED to display, I had to rotate the screen in order to hide the wires that come out of my OLED. I did this by changing a line in my code called image1 = image1.rotate(270, expand = True) which rotated my display and resize the screen. 
 
-# Surprises/Unsolved Problems: 
+### Surprises/Unsolved Problems: 
 I couldn't read my screen when I put it next to my eyes. I can solve this problem by using a hidden OLED to display onto a prism that reflects into my eyes. This will add distance between me and my screen, making it easier to see my screen. 
 
-# Whats Next: 
+### Whats Next: 
 For my third milestone, I’m going to add a bluetooth module to my Raspberry PI that can connect to my phone, then I can display whatever I want and take pictures wirelessly. 
 
 # First Milestone - Camera
