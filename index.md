@@ -2,7 +2,7 @@
 <!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 -->
 ## Project Description
-My project is smart glasses. Smart glasses have a screen in one of the lenses that displays the time, date, temperature, notifications, and anything else I want to display. The smart glasses also can take pictures or videos with a hidden camera, then use bluetooth to connect to my phone and save the pictures/videos. 
+My project is smart glasses. Smart glasses have a screen in one of the lenses that displays the time, date, temperature, notifications, and anything else I want to display. The smart glasses also can take pictures or videos with a hidden camera, then use bluetooth to connect to my phone and save the pictures. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -19,7 +19,7 @@ My project is smart glasses. Smart glasses have a screen in one of the lenses th
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fto_NLnq1OM?si=2Rw3Fly_OoWuwvHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Summary: 
-I put together all the parts in my project as shown in the two figure below. 
+I put together all the parts in my project as shown in the two figure below by connecting my main glasses to my left and right temples using a 3d printed hinge, allowing me to freely move my glasses using super glue. Then I cut a hole in the right side of my temple so that I could super glue my pin headers and secure my Raspberry Pi onto my pin headers, after that I cut another hole into the side of my right temple, so that I could connect my camera to my Raspberry Pi. 
 
 
 
