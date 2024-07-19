@@ -15,7 +15,7 @@ My project is smart glasses. Smart glasses have a screen in one of the lenses th
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fto_NLnq1OM?si=2Rw3Fly_OoWuwvHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Summary: 
-I put together all the parts in my project as shown in the two figures below by connecting my main glasses to my left and right temples using a 3d printed hinge, allowing me to freely move my glasses using super glue. Then I cut a hole in the right side of my temple so that I could super glue my pin headers and secure my Raspberry Pi onto my pin headers, after that I cut another hole into the side of my right temple, so that I could connect my camera to my Raspberry Pi. The following video shows me taking a test picture as well as a close up of my mirror, showing my OLED. 
+I put together all the parts in my project as shown in the two figures below by connecting my main glasses to my left and right temples(the parts that hang onto your ears) using a 3d printed hinge, allowing me to freely move my glasses. Then I cut a hole in the right side of my temple so that I could super glue my pin headers and secure my Raspberry Pi onto my pin headers, after that I cut another hole into the side of my right temple, so that I could connect my camera to my Raspberry Pi. 
 
 
 
@@ -28,25 +28,18 @@ I put together all the parts in my project as shown in the two figures below by 
 
 **Figure 2, picture of my project from the back**
 
+The following video shows me taking a test picture as well as a close up of my mirror, showing my OLED. 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BJ6p8OBOhrs?si=zfvmQkON6X7zWjP6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Components Added:
-Mirror, 3D printed glasses, hinge x2, and other 3d printed parts
-
 ### How the Components Work: 
-I look through my mirror which reflects my vision to my OLED and since mirrors rotate the image, I flipped the direction of my OLED. My Raspberry Pi connects to my phone using bluetooth with an app called blue dot, a big blue button that takes a picture when I click the big blue button. All of this works through bluetooth, communication using ultra-high frequency radio waves. 
+I added Mirror, 3D printed glasses, hinge x2, and other 3d printed parts. My parts work together when I look through my mirror which reflects my vision to my OLED and since mirrors rotate an image, I flipped the direction of my OLED. My Raspberry Pi connects to my phone using bluetooth with an app called blue dot, a big blue button that takes a picture when I click the big blue button. All of this works through bluetooth, communication using ultra-high frequency radio waves. 
 
 ### Challenges
 I realized the tutorial lied and he couldn't actually see the text on the screen since it was too close, so I solved this challenge by using a mirror to increase the distance between my eye and my OLED. When I was putting my parts together, I started off super gluing the back of my raspberry pi to the inside of my glasses which made the wires stick out into my head, I got some help from an instructor and I used a dremel to cut a hole in my glasses so I could super glue some pin headers and my raspberry pi would stay on by being connected to my pin headers, then I had to dremel a hole into the side so that I could put my camera wire through. 
 
 ### Whats Next: 
-I plan on making a voice detection system and adding some more functions to my OLED. 
-
-### What I learned
-I learned a lot about Raspberry Pi's, cameras, OLEDs, got better at CADing, soldering, and most importantly I learned a lot of patience in all my time at bluestamp since my Raspberry Pi was so darn SLOW. 
-
-### What I hope to learn after BSE
-I hope to learn more about Mechanical Engineering and software - mainly coding. 
+I plan on making a voice detection system and adding some more functions to my OLED mainly to balance both sides of my glasses because one side is a few pounds heavier than the other side. I learned a lot about Raspberry Pi's, cameras, OLEDs, got better at CADing, soldering, and most importantly I've gained a lot of patience in all my time at Bluestamp since my Raspberry Pi was so dang SLOW. My Raspberry Pi is really slow because it has 512 mega bytes of ram, meaning it has less memory and needs to read my SD-card really often. In the future, I hope to learn more about CADing and software such as coding.  
 
 
 # Second Milestone - Transparent OLED
